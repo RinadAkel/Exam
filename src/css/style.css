@@ -1,0 +1,375 @@
+@font-face {
+	font-family: "JF Flat Regular";
+	src: url(../fonts/JF-Flat-regular.eot);
+    src: url(../fonts/JF-Flat-regular.eot?#uefix) format('embedded-opentype'),
+        
+         url(../fonts/JF-Flat-regular.woff) format('woff'),
+         url(../fonts/JF-Flat-regular.ttf) format('truetype');
+	font-weight: bolder;
+	font-style: normal;
+}
+body  .navbar{
+	font-family: "JF Flat Regular", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 20px;
+	line-height: 1.429;
+}
+.navbar img {
+    height:35px;
+    position: relative;
+    right: 10px;
+}
+.navbar{
+    background-color: ghostwhite !important;
+}
+ .navbar ul a{
+        background-color: transparent !important;
+        color:black !important;
+        border-color: black !important;
+    }
+ .navbar ul a:hover {
+        color: blue !important;
+        background-color: darkblue !important;
+        margin: auto;
+        text-align: center;
+        border-right: 50%;
+    }
+.nav-item a {
+    position: relative;
+    right:100px;
+}
+
+.def{
+    background-color: transparent;
+    color:black;
+   padding-top:0px;
+   padding-bottom: 0px;
+  text-align: center;
+  vertical-align: middle;
+  
+}
+
+.def h2{
+    text-align: center;
+}
+.carousel-inner img {
+    background-size: 30%;
+    height: 500px;
+    position: relative;
+    top: 70px;
+}
+.def{
+    background-color: lightblue;
+}
+.carousel-caption button{
+    background-color: transparent;
+    color: darkblue;
+    border-color: lightblue;
+    font-size: 50px;
+    font-weight: 900;
+    position: relative;
+    bottom: 150px;
+}
+.whyus{
+    text-align: center;
+    background-color: #f6fbff;
+    
+}
+.titlewhyus{
+    color: blue;
+}
+.services h3 , .tripstitle{
+    text-align: center;
+    font-size: 45px !important;
+    font-weight: 500 !important;
+    color: black;
+    font:oblique;
+}
+ .services .servicess , .tripstitle{
+   background-image: url('../images/image1.png');
+    background-color: rgba(5, 117, 230, 0.8) !important;
+ } 
+.tripstitle h3{
+    line-height: 1.8 !important;
+    font-weight: bolder;
+    font-size: 33px;
+}
+.fa-check-double{
+    position:relative;
+    right: 650px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 500;
+    color: blue;
+}
+.services{
+background-color: #f6fbff;
+}
+hr{
+    border: 10px solid darkblue;
+  border-radius: 5px;
+}
+.vl {
+    border-left: 6px solid green;
+    height: 500px;
+  }
+  .details{
+      position:relative;
+      top: 20px;
+  }
+  .card-title{
+      text-align: center;
+      font-weight: 600;
+  }
+  .card-text{
+      text-align: center;
+  }
+
+.new1 , .new2 {
+  color: black;
+}
+.new2:hover{
+  text-decoration: none !important;
+  color: rgb(59, 1, 1) !important;
+}
+.new1 , .new2{
+  color: darkblue;
+  text-decoration: none !important;
+  font-size: 20px;
+  text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+}
+.new1{
+  position: relative;
+  right: -65px;
+  
+}
+.modal-footer{
+  background-color: lightblue;
+}
+.pswforget{
+    position: relative;
+    right: -166px;
+}
+.card:hover {
+    transform: translateY(-.9%);
+}
+.card {
+    transition: transform .5s;
+}
+.card-body h5{
+    color: blue;
+}
+.map{
+    position:relative;
+    right: 230px;
+    background-color: lightblue;
+}
+.container-contact .contactus{
+    background-color: lightblue;
+    position: relative;
+    right:130px;
+}
+
+.contact-us .title{
+    text-align: center;
+    color: darkblue;
+}
+.contact-us{
+     line-height:1px;
+}
+.submit{
+    position: relative;
+    right: 150px;
+    padding: 5px;
+    color: blue !important;
+    border-radius: 5px;
+    border-color: darkblue;
+    font-size: 15px;
+}
+.submit:hover{
+    background-color: darkblue;
+    color: lightblue;
+}
+#contact{
+    position: relative;
+
+}
+footer .copyright {
+    border-top: 2px solid #262626;
+}
+footer .copyright p {
+    font-size: 15px;
+    line-height: 70px;
+    color: #565656;
+    text-align: center;
+}
+#top-menu .fa-bars{
+    cursor: pointer;
+}
+.sidebar {
+    position: fixed;
+    z-index: 4;
+    right: -17rem;
+    transition: all 0.5s ease-in-out;
+    height: 37; 
+    overflow: hidden; 
+    padding-bottom: 60px;
+}
+.sidebar .list-group-item:hover {
+    color:lightblue;
+    background-color:darkblue;
+}
+.sidebar .list-group-item {
+    width: 17rem;
+    background-color: lightblue;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+}
+#wrap.toggled .sidebar {
+    right: 0rem;
+}
+.navbar-brand{
+    position: relative;
+    right: 10px;
+}
+.carousel-control-prev-icon , .carousel-control-next-icon{
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin: 10px;
+}
+.btn{
+    position: relative;
+    right: 260px;
+    color: blue !important;
+    border-radius: 5px;
+    border-color: darkblue;
+    font-size: 15px;
+}
+.btn:hover{
+    color: darkblue;
+}
+ .cardtrip .card-text{
+ color:#F6DB6C;
+ font-size: 20px;
+ font-weight: 800;
+}
+@media(min-width:1170px){
+.map{
+    width:600px;
+}
+ #commentForm a {
+    display: none !important;
+}
+}
+@media(min-width:991)and (max-width:1170px){
+    .map{
+        width:200px !important;
+    }
+    #commentForm a {
+        display: none !important;
+    }
+}
+@media(max-width:991px){
+    .map{
+            display:none;
+    }
+    .sidebar{
+        display: none;
+    }
+    .fa-bars{
+        display:none;
+    }
+    .nav-item{
+        display:none;
+    }
+    .btn{
+        position: relative;
+        right: 70px;
+        color: blue !important;
+        border-radius: 5px;
+        border-color: darkblue;
+        font-size: 15px;
+    }
+    .navbar img {
+       display:none;
+    }
+    .container-contact .contactus{
+        background-color: lightblue;
+        position: relative;
+        right:275px;
+    }
+    .submit{
+        position: relative;
+        right: -10px;
+        padding: 5px;
+    }
+    #commentForm a {
+        text-decoration: none;
+        color: darkblue;
+        position: relative;
+        right: 78px;
+    }
+}
+@media (min-width:430px) and (max-width: 776px) {
+    hr{
+        position: relative !important;
+        right: 20px !important;
+    }
+    .btn{
+        position: relative !important;
+        right: 120px !important;
+    }
+    .container-contact .contactus{
+        background-color: lightblue;
+        position: relative;
+        right: 200px !important;
+    }
+    .services .card{
+        position: relative;
+        right: 50px !important;
+    }
+    .navbar img {
+        height:35px;
+        position: relative;
+        right: -250px !important;
+    }
+   
+}
+@media (max-width: 430px){
+    .container-contact .contactus{
+        background-color: lightblue;
+        position: relative;
+        right:160px;
+    }
+    
+    
+}
+@media (min-width: 240px)and (max-width:430px){
+    .container-contact .contactus{
+        background-color: lightblue;
+        position: relative;
+        right:60px;
+    }
+    hr{
+        position: relative;
+        right: -5px;
+    }
+    .services .card{
+        position: relative;
+        right: -50px;
+    }
+    .navbar img {
+        display:none;
+    }
+    .btn{
+        position: relative;
+        right: 20px;
+    }
+    .pswforget{
+        right: -10px !important;
+    }
+    
+}
+
