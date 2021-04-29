@@ -80,6 +80,17 @@ module.exports = {
           exposes: ['$', 'jQuery'],
         }
       },
+      {
+        test: /\.(mov|mp4)$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[ext]'
+            }  
+          }
+        ]
+      }
     ],
   },
 
@@ -87,6 +98,10 @@ module.exports = {
     new HtmlWebpackPlugin({
       filename: "index.html",  
       template: "./src/index.html",
+    }),
+    new HtmlWebpackPlugin({
+      filename: "landingpage.html",  
+      template: "./src/landingpage.html",
     }),
     new MiniCssExtractPlugin({filename:"css/style.css"}),
     new OptimizeCssAssetsPlugin({}),

@@ -4,10 +4,13 @@ import 'jquery/dist/jquery.min';
 import 'popper.js/dist/popper.min';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import '@fortawesome/fontawesome-free/js/all.min';
+import  '../src/images/landingpage/video1.mp4';
+
+ 
+brightcovePlayerLoader();
 
 $(function() {
     $("#yourModal").modal("hide"); 
-    
     function checkPasswordMatch() {
         var password = $("#txtNewPassword").val();
         var confirmPassword = $("#txtConfirmPassword").val();

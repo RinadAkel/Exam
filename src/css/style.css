@@ -372,4 +372,148 @@ footer .copyright p {
     }
     
 }
+/********************************** Landing page ***********************************************/
 
+.earth{
+    width: 300px;
+    height: 300px;
+    background-image: url('../images/earth.jpg');
+    position: absolute;
+    top: 900px;
+    bottom: 0px;
+    left: 0;
+    right: 920px;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-size: cover;
+    box-shadow: -20px -20px 50px 2px #000 inset, 0 0 20px 2px #000; 
+    animation: spin 30s linear alternate infinite;
+}
+@keyframes spin{
+100% {background-position:100%;}
+}
+
+.booking-form-box{
+    max-width: 300px;
+    border: 1px solid #ced4da;
+    margin: 10% auto 0;
+}
+.radio-btn{
+    margin: 0 20px;
+}
+.radio-btn .btnn{
+    margin: 20px 10px 20px 0;
+    box-shadow: none;
+}
+.radio-btn .btnn::after{
+    content: '';
+    height: 15px;
+    height: 15px;
+    width: 15px;
+    top: -2px;
+    left: -1px;
+    background-color: darkblue;
+    position: relative;
+    display: inline-block;
+    border: 3px solid #000 !important;
+    visibility: visible;
+    border-radius: 50%;
+    color: darkblue;
+}
+.radio-btn .btnn:checked::after{
+    content: '';
+    background-color: #000;
+    transition: 0.5;
+}
+.radio-btn{
+    color: darkblue;
+    margin-right: 5px;
+    font-size: 12px;
+}
+.booking-form{
+    padding: 0 20px 20px;
+    position: relative;
+    top: -39px;
+}
+.booking-form label{
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-size: 12px;
+    text-align: center;
+  
+}
+input::placeholder{
+    color: darkblue;
+    font-size: 20px;
+    font-weight: 400;
+}
+input-grp
+{
+    width: 151px;
+    display: inline-block
+}
+.form-control
+{
+    font-size: 12px !important;
+    border-radius: 0 !important;
+   
+    background : transparent !important;
+    box-shadow: none !important;
+}
+ .booking-form-box .radio-btn span{
+    color: darkblue;
+    font-size: 20px;
+    font-weight: 400;
+}
+.booking-form label{
+    color: darkblue;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+.booking-form input{
+    border: 3px solid darkblue;
+}
+.input-grp .custom-select option{
+    color: darkblue;
+    font-size: 20px;
+    font-weight: 400;
+}
+.custom-select
+{
+    font-size: 12px !important;
+    border: 1px solid #ced4da !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    background: transparent;
+}
+.custom-select option{
+    color: #333;
+}
+.flight{
+    width: 100%;
+    padding: 9px 0;
+    font-size: 12px;
+    border: 1px solid #ced4da !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    font-weight: 500;
+    font-size: 20px;
+}
+.flight:hover{
+   
+    color: #000 !important;
+    transition: 0.5;
+}
+.book{
+    position: relative;
+    top: 25px !important;
+}
+.input-grp label{
+    color: darkblue;
+}
+.first{
+    background-image: url('../images/r.jpg');
+}

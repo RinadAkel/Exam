@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@brightcove/player-loader": "^1.8.0",
     "bootstrap": "^4.6.0",
     "css-loader": "^5.2.4",
     "expose-loader": "^2.0.0",
@@ -36,6 +37,7 @@
     "react-animate-on-scroll": "^2.1.5",
     "sass-loader": "^11.0.1",
     "scroll-js": "^3.3.0",
+    "three-globe": "^2.18.1",
     "webpack-jquery-ui": "^2.0.1",
     "wowjs": "^1.1.3"
   }
