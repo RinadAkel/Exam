@@ -417,10 +417,16 @@ footer .copyright p {
 }
 .video1{
     position: relative;
-    top: -57px;
+    top: 23px;
 
 }
 #carouselExampleControls{
     position: relative;
     top: 24px;
+}
+.detail{
+    text-align: center;
+}
+.det{
+    background-color: beige;
 }
