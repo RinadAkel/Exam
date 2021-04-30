@@ -5,6 +5,7 @@ import 'popper.js/dist/popper.min';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import '@fortawesome/fontawesome-free/js/all.min';
 import  '../src/images/landingpage/video1.mp4';
+import  '../src/images/landingpage/video2.mp4';
 
  
 brightcovePlayerLoader();

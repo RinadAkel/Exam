@@ -417,16 +417,57 @@ footer .copyright p {
 }
 .video1{
     position: relative;
-    top: 23px;
+    top: 116px;
 
 }
 #carouselExampleControls{
-    position: relative;
+    position: absolute;
     top: 24px;
 }
 .detail{
     text-align: center;
 }
 .det{
+    background-color: beige;
+    position:relative;
+    top: 148px;
+}
+.det2{
+    background-color: beige;
+    position:relative;
+    top: 265px;
+}
+.video2{
+    position: relative;
+    top: 175px;
+}
+.inner{
+    position: relative;
+    right: -18px;
+}
+.trip2{
+    position: relative;
+    top: 93px;
+}
+.trip2caro{
+    position: relative;
+    top: 94px;
+}
+.parag{
+    text-align: center;
+}
+.button1{
+    position: relative;
+    right: 620px;
+    background-color: lightblue;
+    font-weight: 600;
+    color: black;
+}
+.button1:hover{
+    background-color: darkblue;
+}
+.contact2{
+    position:relative;
+    top: 245px;
     background-color: beige;
 }
