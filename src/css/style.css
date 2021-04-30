@@ -272,6 +272,12 @@ footer .copyright p {
     }
 }
 @media(max-width:991px){
+    video{
+        display:none;
+    }
+    .book{
+        display:none;
+    }
     .map{
             display:none;
     }
@@ -470,4 +476,29 @@ footer .copyright p {
     position:relative;
     top: 245px;
     background-color: beige;
+}
+@media(min-width:200px)and (max-width:450px){
+    .topmenu{
+        position: relative;
+        left: 10px !important;
+        background-color: lightblue;
+    }
+    .row11{
+         background-color: lightblue;
+    }
+    .earth{
+        display:none;
+    }
+    .horizontalline2{
+        position:relative;
+        bottom: -245px;
+    }
+    .button1{
+        position:relative;
+        right:168px !important;
+    }
+    .inner{
+        position:relative;
+        right:-8px;
+    }
 }
