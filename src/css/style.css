@@ -502,3 +502,115 @@ footer .copyright p {
         right:-8px;
     }
 }
+@media (min-width: 456px) and (max-width:649px){
+    .earth{
+        display: none;
+    }
+    .topmenu{
+        position: relative;
+        left: 10px !important;
+        background-color: lightblue;
+    }
+    .button1{
+        position: relative;
+        right: 235px;
+    }
+    .pyramids{
+        position: relative;
+        top: -54px;
+        right: -12px;
+    }
+    .contact2{
+        background-color: transparent;
+    }
+    .inner{
+        position: relative;
+        top: -54px;
+        right: -7px;
+    }
+    .det{
+        position: relative;
+        top: 327px;
+    }
+    .trip2{
+        position: relative;
+        right: -12px !important;
+        top: 276px;
+    }
+    .det2{
+        position:relative;
+        top: 525px;
+    }
+    .inner2{
+        position: relative;
+        top: 184px;
+    }
+    .det2{
+        position: relative;
+        top: 641px;
+    }
+    .contactus2{
+        position: relative;
+        top: 351px !important;
+    }
+    hr{
+        position: relative;
+        right: 10px !important;
+    }
+
+}
+@media (min-width: 650px) and (max-width:768px){
+    .earth{
+        display: none;
+    }
+    .det{
+        position: relative;
+        top:34px;
+    }
+    body{
+        position: relative;
+        top: 18px;
+    }
+    .inner{
+        position: relative;
+        right: 0px;
+        top: 315px;
+    }
+    .contactus2{
+        position: relative;
+        right: 10px !important;
+        top: 638px !important;
+    }
+    .trip2{
+        position: relative;
+        top: 847px !important;
+    }
+    .contact2{
+        background-color: transparent;
+    }
+    .inner2{
+        position: relative;
+        right: -3px !important;
+        top: 764px !important;
+    }
+    hr{
+        position: relative;
+        right: -2px !important;
+    }
+    .horizontalline1{
+        position: relative;
+        top: 50px !important;
+    }
+    .horizontalline2{
+        position: relative;
+        top: 37px;
+    }
+    .horizontalline3{
+        display:none;
+    }
+    .button1{
+        position: relative;
+        right: 335px;
+    }
+
+}
