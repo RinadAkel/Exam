@@ -1,0 +1,137 @@
+@import '../scss/_variables';
+
+.navbar{
+    background-color: ghostwhite !important;
+    ul a{
+        background-color: transparent !important;
+        color:black !important;
+        border-color: black !important;
+        &:hover{
+             
+                color: blue !important;
+                background-color: darkblue !important;
+                margin: auto;
+                text-align: center;
+                border-right: 50%;
+            }
+    }
+    img {
+        height:35px;
+        position: relative;
+        right: 10px;
+    }
+    .nav-item a {
+        position: relative;
+        right:100px;
+    }
+    @media(max-width:991px){
+        img {
+            display:none;
+         }
+    }
+    @media (min-width:430px) and (max-width: 776px){
+        img {
+            height:35px;
+            position: relative;
+            right: -250px !important;
+        }
+    }
+    @media (min-width: 240px)and (max-width:430px){
+        img {
+            display:none;
+        }
+    }
+   
+}
+    .def{
+        background-color: transparent;
+        color:black;
+        padding-top:0px;
+        padding-bottom: 0px;
+        text-align: center;
+        vertical-align: middle;
+        background-color: lightblue;
+        h2{
+            text-align: center;
+        }
+    
+     }
+     #carouselExampleIndicators {
+
+            .carousel-inner img {
+                background-size: 30%;
+                height: 500px;
+                position: relative;
+                top: 70px;
+            }
+            .carousel-caption button{
+                background-color: transparent;
+                color: darkblue;
+                border-color: lightblue;
+                font-size: 50px;
+                font-weight: 900;
+                position: relative;
+                bottom: 150px;
+            }
+            .carousel-control-prev-icon{
+                width: 50px;
+                height: 50px;
+                float: left;
+                margin: 10px;
+            }
+            .carousel-control-next-icon{
+                width: 50px;
+                height: 50px;
+                float: left;
+                margin: 10px;
+            }
+        }
+        .btn{
+            position: relative;
+            right: 260px;
+            color: blue !important;
+            border-radius: 5px;
+            border-color: darkblue;
+            font-size: 15px;
+            &:hover{
+                color: darkblue;
+            }
+            @media(max-width:991px){
+                position: relative;
+                right: 70px;
+                color: blue !important;
+                border-radius: 5px;
+                border-color: darkblue;
+                font-size: 15px;
+            }
+            @media (min-width:430px) and (max-width: 776px) {
+                position: relative !important;
+                right: 308px !important;
+            }
+            @media (min-width: 240px)and (max-width:430px){
+                position: relative;
+                right: 20px;
+            }
+        }
+        .services{
+                h3 , .tripstitle{
+                    text-align: center;
+                    font-size: 45px !important;
+                    font-weight: 500 !important;
+                    color: black;
+                    font:oblique;   
+                }
+                @media (min-width:430px) and (max-width: 776px) {
+                    .card{
+                        position: relative;
+                        right: 50px !important;
+                    }
+                }
+                @media (min-width: 240px)and (max-width:430px){
+                    .card{
+                        position: relative;
+                        right: -50px;
+                    }
+                }
+           }
+ 
