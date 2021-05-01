@@ -477,6 +477,21 @@ footer .copyright p {
     top: 245px;
     background-color: beige;
 }
+    .nav-link{
+    clear: both !important;
+    display: inline-block !important;
+    overflow: hidden !important;
+    white-space: nowrap !important;
+    right: 10px !important;
+    }
+    .horizontalline3{
+        position: relative;
+        top: 254px;
+    }
+    .horizontalfinal{
+        position: relative;
+        top: 250px;
+    }
 @media(min-width:200px)and (max-width:450px){
     .topmenu{
         position: relative;
@@ -501,8 +516,28 @@ footer .copyright p {
         position:relative;
         right:-8px;
     }
+    .horizontalfinal{
+        position: relative;
+        top: 238px;
+    }
+    .horizontalline3{
+        position: relative;
+        top: 253px;
+    }
+    .contactus2{
+        position: relative;
+        right: 26px !important;
+    }
 }
 @media (min-width: 456px) and (max-width:649px){
+    .horizontalline3{
+        position: relative;
+        top: 633px !important;
+    }
+    .horizontalfinal{
+        position: relative;
+        top: 620px !important;
+    }
     .earth{
         display: none;
     }
@@ -551,13 +586,52 @@ footer .copyright p {
     }
     .contactus2{
         position: relative;
-        top: 351px !important;
+        top: 380px !important;
     }
     hr{
         position: relative;
         right: 10px !important;
     }
 
+}
+@media (min-width: 769px) and (max-width: 1024px){
+    .earth{
+        position: relative;
+        right: 542px;
+        top: 142px;
+    }
+    .book{
+        position: relative;
+        top: -241px !important;
+    }
+    video{
+        width: 465px !important;
+    }
+    .inner, .inner2{
+        position: relative;
+        top:93px !important;
+    }
+    .button1{
+        position:relative;
+        right:460px !important
+    }
+    .horizontalfinal{
+        position: relative;
+        top: 240px !important;
+    }
+    .horizontalline3{
+        position:relative;
+        top: 260px !important;
+    }
+    .pyramids{
+        position: relative;
+        top: 20px;
+    }
+    .trip2{
+        position: relative;
+        top: 130px;
+    }
+   
 }
 @media (min-width: 650px) and (max-width:768px){
     .earth{
@@ -606,11 +680,16 @@ footer .copyright p {
         top: 37px;
     }
     .horizontalline3{
-        display:none;
+        position: relative;
+        top: 862px;
     }
     .button1{
         position: relative;
         right: 335px;
+    }
+    .horizontalfinal{
+        position: relative;
+        top: 877px;
     }
 
 }
