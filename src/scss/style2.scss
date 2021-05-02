@@ -11,6 +11,10 @@
     @media(max-width:991px){
         display:none;
     }
+    @media(min-width: 1026px) and (max-width: 1323px){
+        position: relative;
+        top: -298px !important;
+    }
 }
 .earth{
     width: 300px;
@@ -46,6 +50,11 @@
     }
     @media (min-width: 650px) and (max-width:768px){
         display: none;
+    }
+    @media(min-width: 1026px) and (max-width: 1323px){
+        position: relative;
+        right: 653px !important;
+        top: 69px !important;
     }
     
 }
@@ -247,6 +256,7 @@
         left: -8px !important;
         background-color: $brand-lightblue;
     }
+   
 }
 .horizontalline2{
     @media(min-width:200px)and (max-width:450px){
@@ -330,6 +340,11 @@
         position: relative;
         right: 58px !important;
         top: 913px !important;
+    }
+    @media(min-width: 1025px)and (max-width: 1040px){
+        position: relative;
+        right: 92px !important;
+        top: 88px;
     }
 }
 .contact2{
