@@ -90,7 +90,11 @@ hr{
  font-size: 20px;
  font-weight: 800;
 }
-
+@media(min-width: 992px){
+    .log{
+        display:none;
+    }
+}
 
 @media(max-width:991px){
     video{

@@ -20,7 +20,7 @@
     top: 450px;
     bottom: 0px;
     left: 0;
-    right: 920px;
+    right: 991px;
     margin: auto;
     width: 300px;
     height: 300px;
@@ -34,14 +34,20 @@
     @media (min-width: 456px) and (max-width:649px){
         display: none;
     }
-    @media (min-width: 769px) and (max-width: 1024px){
+    @media (min-width: 992px) and (max-width: 1024px){
         position: relative;
         right: 542px;
         top: 142px;
     }
+    @media (min-width: 769px) and (max-width: 991px){
+        position: relative;
+        right: -23px;
+        top: 1px;
+    }
     @media (min-width: 650px) and (max-width:768px){
         display: none;
     }
+    
 }
 .inner{
     width: 83% !important;
@@ -58,7 +64,7 @@
         top: 26px;
         right: 34px;
     }
-    @media (min-width: 769px) and (max-width: 1024px){
+    @media (min-width: 991px) and (max-width: 1024px){
         position: relative;
         top:93px !important;
         right: 42px !important;
@@ -67,6 +73,16 @@
         position: relative;
         right: 55px;
         top: 315px;
+    }
+    @media (min-width: 768px) and (max-width: 990px){
+        position: relative;
+        top: 44px;
+        right:42px;
+    }
+    @media(min-width: 1025px)and (max-width: 1226px){
+        position: relative;
+        right: 71px !important;
+        top: 88px;
     }
 }
 .pyramids{
@@ -81,9 +97,13 @@
         top: 23px !important;
         right: -12px;
     }
-    @media (min-width: 769px) and (max-width: 1024px){
+    @media (min-width: 991px) and (max-width: 1024px){
         position: relative;
         top: 20px;
+    }
+    @media (min-width: 768px) and (max-width: 990px){
+        position: relative;
+        top: 44px;
     }
     @media (min-width: 650px) and (max-width:768px){
         position: relative;
@@ -124,6 +144,10 @@
         position: relative;
          top: 189px !important;
     }
+    @media (min-width: 768px) and (max-width: 991px){
+        position: relative;
+        top: 555px;
+    }
 }
 .det2{
     background-color: $brand-beige;
@@ -142,6 +166,10 @@
         position: relative;
         top: 405px !important;
     }
+    @media (min-width: 768px) and (max-width: 991px){
+        position: relative;
+        top: 980px;
+    }
 }
 .trip2{
     position: relative;
@@ -151,9 +179,13 @@
         right: -12px !important;
         top: 276px;
     }
-    @media (min-width: 769px) and (max-width: 1024px){
+    @media (min-width: 992px) and (max-width: 1024px){
         position: relative;
         top: 130px;
+    }
+    @media (min-width: 768px) and (max-width: 991px){
+        position: relative;
+        top: 500px;
     }
     @media (min-width: 650px) and (max-width:768px){
         position: relative;
@@ -182,13 +214,21 @@
         position: relative;
         right: 235px;
     }
-    @media (min-width: 769px) and (max-width: 1024px){
+    @media (min-width: 991px) and (max-width: 1024px){
         position:relative;
         right:460px !important;
     }
     @media (min-width: 650px) and (max-width:768px){
         position: relative;
         right: 335px;
+    }
+    @media (min-width: 768px) and (max-width: 991px){
+        position:relative;
+        right:360px !important;
+    }
+    @media(min-width: 1025px)and (max-width: 1226px){
+        position: relative;
+        right: 454px !important;
     }
 }
 .topmenu{
@@ -229,13 +269,17 @@
             position: relative;
             top: 633px !important;
         }
-        @media (min-width: 769px) and (max-width: 1024px){
+        @media (min-width: 992px) and (max-width: 1024px){
             position:relative;
             top: 260px !important;
         }
         @media (min-width: 650px) and (max-width:768px){
             position: relative;
             top: 862px;
+        }
+        @media(min-width:768px) and (max-width: 991px){
+            position:relative;
+            top: 975px;
         }
 }
 .horizontalfinal{
@@ -249,13 +293,17 @@
         position: relative;
         top: 620px !important;
     }
-    @media (min-width: 769px) and (max-width: 1024px){
+    @media (min-width: 992px) and (max-width: 1024px){
         position: relative;
         top: 240px !important;
     }
     @media (min-width: 650px) and (max-width:768px){
         position: relative;
         top: 877px;
+    }
+    @media (min-width: 768px) and (max-width: 991px){
+        position: relative;
+        top: 964px !important;
     }
 }
 .inner2{
@@ -267,21 +315,26 @@
         position: relative;
         top: 217px;
     }
-    @media (min-width: 769px) and (max-width: 1024px){
+    @media (min-width: 992px) and (max-width: 1024px){
         position: relative;
         top:93px !important;
         right: 42px !important;
     }
+    @media (min-width: 768px) and (max-width: 991px){
+        position: relative;
+        top:410px !important;
+        right: 42px !important;
+    }
+    
     @media (min-width: 650px) and (max-width:768px){
         position: relative;
         right: 58px !important;
-        top: 798px !important;
+        top: 913px !important;
     }
 }
 .contact2{
     position:relative;
     top: 245px;
-    background-color: $brand-beige;
     @media(min-width:200px)and (max-width:450px){
         background-color: transparent;
     }
@@ -318,6 +371,10 @@
         right:65px !important;
         top: 15px !important;
 
+    }
+    @media(min-width: 768px) and (max-width: 991px){
+        position:relative;
+        top: 723px !important;
     }
    
 }
