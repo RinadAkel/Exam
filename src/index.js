@@ -1,6 +1,7 @@
 import '../src/scss/_variables.scss';
 import '../src/scss/custom.scss';
 import '../src/scss/style.scss';
+import '../src/scss/style2.scss';
 import '@laylazi/bootstrap-rtl/dist/css/bootstrap-rtl.min.css';
 import '../src/css/style.css';
 import 'jquery/dist/jquery.min';

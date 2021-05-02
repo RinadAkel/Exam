@@ -1,15 +1,15 @@
 @import '../scss/_variables';
-
+//for the mainpage 
 .navbar{
-    background-color: ghostwhite !important;
+    background-color: $brand-ghostwhite !important;
     ul a{
         background-color: transparent !important;
-        color:black !important;
-        border-color: black !important;
+        color:$brand-dark !important;
+        border-color: $brand-dark !important;
         &:hover{
              
-                color: blue !important;
-                background-color: darkblue !important;
+                color: $brand-blue !important;
+                background-color: $brand-darkblue !important;
                 margin: auto;
                 text-align: center;
                 border-right: 50%;
@@ -45,12 +45,12 @@
 }
     .def{
         background-color: transparent;
-        color:black;
+        color:$brand-dark;
         padding-top:0px;
         padding-bottom: 0px;
         text-align: center;
         vertical-align: middle;
-        background-color: lightblue;
+        background-color: $brand-lightblue;
         h2{
             text-align: center;
         }
@@ -66,8 +66,8 @@
             }
             .carousel-caption button{
                 background-color: transparent;
-                color: darkblue;
-                border-color: lightblue;
+                color: $brand-darkblue;
+                border-color: $brand-lightblue;
                 font-size: 50px;
                 font-weight: 900;
                 position: relative;
@@ -87,21 +87,15 @@
             }
         }
         .btn{
-            position: relative;
-            right: 260px;
-            color: blue !important;
-            border-radius: 5px;
-            border-color: darkblue;
-            font-size: 15px;
             &:hover{
-                color: darkblue;
+                background-color: $brand-lightblue;
             }
             @media(max-width:991px){
                 position: relative;
                 right: 70px;
-                color: blue !important;
+                color: $brand-blue !important;
                 border-radius: 5px;
-                border-color: darkblue;
+                border-color: $brand-darkblue;
                 font-size: 15px;
             }
             @media (min-width:430px) and (max-width: 776px) {
@@ -112,13 +106,20 @@
                 position: relative;
                 right: 20px;
             }
+            position: relative;
+            right: 260px;
+            color: $brand-blue !important;
+            border-radius: 5px;
+            border-color: $brand-darkblue;
+            font-size: 15px;
+            border-color: $brand-darkblue !important;
         }
         .services{
                 h3 , .tripstitle{
                     text-align: center;
                     font-size: 45px !important;
                     font-weight: 500 !important;
-                    color: black;
+                    color: $brand-dark;
                     font:oblique;   
                 }
                 @media (min-width:430px) and (max-width: 776px) {
@@ -134,4 +135,167 @@
                     }
                 }
            }
- 
+           .new1{
+            color: $brand-darkblue !important;
+            text-decoration: none !important;
+            font-size: 20px !important;
+            text-shadow: 0 1px 0 #fff !important;
+            opacity: .5 !important;
+            font-weight: unset !important;
+            float: unset !important;
+            line-height: unset !important;
+            position: relative;
+            right: -45px; 
+            &:hover{
+                background-color: $brand-darkblue;
+                color: $brand-lightblue;
+            }
+          }
+          .new2{
+            color: $brand-darkblue !important;
+            text-decoration: none !important;
+            font-size: 20px !important;
+            text-shadow: 0 1px 0 #fff !important;
+            opacity: .5 !important;
+            font-weight: unset !important;
+            float: unset !important;
+            line-height: unset !important;
+            &:hover{
+                background-color: $brand-darkblue;
+                color: $brand-lightblue;
+            }
+          }
+        .card {
+            transition: transform .5s;
+            &:hover{
+                transform: translateY(-.9%);
+            }
+        }
+        .contact-us{
+             line-height:1px;
+             .title{
+                text-align: center;
+                color: $brand-darkblue;
+            }
+        }
+        .submit{
+            position: relative;
+            right: 150px;
+            padding: 5px;
+            color:$brand-blue !important;
+            border-radius: 5px;
+            border-color: $brand-darkblue;
+            font-size: 15px;
+            &:hover{
+                background-color: $brand-darkblue;
+                color: $brand-lightblue;
+            }
+            @media(max-width:991px){
+                position: relative;
+                right: -10px;
+                padding: 5px;
+            }
+        }
+        .sidebar {
+            position: fixed;
+            z-index: 4;
+            right: -17rem;
+            transition: all 0.5s ease-in-out;
+            height: 37; 
+            overflow: hidden; 
+            padding-bottom: 60px;
+        }
+        .sidebar{
+                  .list-group-item {
+                        width: 17rem;
+                        background-color: $brand-lightblue;
+                        text-align: center;
+                        text-decoration: none;
+                        font-weight: 600;
+                    }
+                    &:hover {
+                        color:$brand-lightblue;
+                        background-color:$brand-darkblue;
+                    }
+                    @media(max-width:991px){
+                        display: none;
+                    }
+                }
+                .pswforget{
+                    position: relative;
+                    right: -166px;
+                    @media (min-width: 240px)and (max-width:430px){
+                            right: -10px !important;
+                    }
+                }
+                .container-contact{
+                    .contactus{
+                        background-color: $brand-lightblue;
+                        position: relative;
+                        right:130px;
+                    }
+                    @media(max-width:991px){
+                        .contactus{
+                            background-color: $brand-lightblue;
+                            position: relative;
+                            right:275px;
+                        }
+                    }
+                    @media (min-width:430px) and (max-width: 776px) {
+                        .contactus{
+                            background-color: $brand-lightblue;
+                            position: relative;
+                            right: 250px !important;
+                        }
+                    }
+                    @media (max-width: 430px){
+                        .contactus{
+                            background-color: $brand-lightblue;
+                            position: relative;
+                            right:160px;
+                        }
+                    }
+                    @media (min-width: 240px)and (max-width:430px){
+                        .contactus{
+                            background-color: $brand-lightblue;
+                            position: relative;
+                            right:60px;
+                        }
+                    }
+                }
+                .map{
+                    position:relative;
+                    right: 230px;
+                    background-color: $brand-lightblue;
+                    @media(min-width:1170px){
+                        width:600px;
+                    }
+                    @media(min-width:991)and (max-width:1170px){
+                        width:200px !important;
+                    }
+                    @media(max-width:991px){
+                        display:none;
+                    }
+                }
+                #commentForm{
+                    @media(min-width:1170px){
+                        a {
+                            display: none !important;
+                        }
+                    }
+                    @media(min-width:991)and (max-width:1170px){
+                        a {
+                            display: none !important;
+                        }
+                    }
+                    @media(max-width:991px){
+                        a {
+                            text-decoration: none;
+                            color: $brand-darkblue;
+                            position: relative;
+                            right: 78px;
+                        }
+                    }
+                }
+        
+        

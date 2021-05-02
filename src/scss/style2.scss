@@ -1,0 +1,184 @@
+@import '../scss/variables';
+//for the landing page
+
+.book{
+    position:relative;
+    top:-2px !important;
+    @media (min-width: 769px) and (max-width: 1024px){
+        position: relative;
+        top: -241px !important;
+    }
+    @media(max-width:991px){
+        display:none;
+    }
+}
+.earth{
+    width: 300px;
+    height: 300px;
+    background-image: url('../images/earth.jpg');
+    position: absolute;
+    top: 450px;
+    bottom: 0px;
+    left: 0;
+    right: 920px;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-size: cover;
+    box-shadow: -20px -20px 50px 2px #000 inset, 0 0 20px 2px #000; 
+    animation: spin 30s linear alternate infinite;
+    @media(min-width:200px)and (max-width:450px){
+        display:none;
+    }
+    @media (min-width: 456px) and (max-width:649px){
+        display: none;
+    }
+    @media (min-width: 769px) and (max-width: 1024px){
+        position: relative;
+        right: 542px;
+        top: 142px;
+    }
+    @media (min-width: 650px) and (max-width:768px){
+        display: none;
+    }
+}
+.inner{
+    width: 83% !important;
+    position:relative;
+    top:52px;
+    right: -18px;
+    @media(min-width:200px)and (max-width:450px){
+        position:relative;
+        right:14px;
+        top:-52px;
+    }
+    @media (min-width: 456px) and (max-width:649px){
+        position: relative;
+        top: -15px;
+        right: 34px;
+    }
+    @media (min-width: 769px) and (max-width: 1024px){
+        position: relative;
+        top:93px !important;
+        right: 42px !important;
+    }
+    @media (min-width: 650px) and (max-width:768px){
+        position: relative;
+        right: 55px;
+        top: 315px;
+    }
+}
+.pyramids{
+    position:relative;
+    top: 32px;
+    @media(min-width:200px)and (max-width:450px){
+        position:relative;
+        top: -53px;
+    }
+    @media (min-width: 456px) and (max-width:649px){
+        position: relative;
+        top: -54px;
+        right: -12px;
+    }
+    @media (min-width: 769px) and (max-width: 1024px){
+        position: relative;
+        top: 20px;
+    }
+
+}
+.video1{
+    position: relative;
+    top: 90px;
+    @media (min-width: 769px) and (max-width: 1024px){
+        position:relative;
+        top: 95px !important;
+    }
+
+}
+.video2{
+    position: relative;
+    top: 175px;
+    @media (min-width: 769px) and (max-width: 1024px){
+        position: relative;
+        top: 192px !important;
+    }
+}
+.det{
+    background-color: beige;
+    position:relative;
+    top: 148px;
+    @media (min-width: 456px) and (max-width:649px){
+        position: relative;
+        top: 327px;
+    }
+    @media (min-width: 650px) and (max-width:768px){
+        position: relative;
+        top:34px;
+    }
+}
+.det2{
+    background-color: beige;
+    position:relative;
+    top: 265px;
+    @media (min-width: 456px) and (max-width:649px){
+        position:relative;
+        top: 525px;
+        top: 641px;
+    }
+}
+.trip2{
+    position: relative;
+    top: 93px;
+    @media (min-width: 456px) and (max-width:649px){
+        position: relative;
+        right: -12px !important;
+        top: 276px;
+    }
+    @media (min-width: 769px) and (max-width: 1024px){
+        position: relative;
+        top: 130px;
+    }
+    @media (min-width: 650px) and (max-width:768px){
+        position: relative;
+        top: 847px !important;
+    }
+}
+.button1{
+    position: relative;
+    right: 620px;
+    background-color: lightblue;
+    font-weight: 600;
+    color: black;
+    &:hover{
+        background-color: darkblue;
+    }
+    @media(min-width:200px)and (max-width:450px){
+        position:relative;
+        right:90px !important;
+    }
+    @media (min-width: 456px) and (max-width:649px){
+        position: relative;
+        right: 235px;
+    }
+    @media (min-width: 769px) and (max-width: 1024px){
+        position:relative;
+        right:460px !important;
+    }
+    @media (min-width: 650px) and (max-width:768px){
+        position: relative;
+        right: 335px;
+    }
+}
+.topmenu{
+    @media(min-width:200px)and (max-width:450px){
+        position: relative;
+        left: 10px !important;
+        background-color: lightblue;
+    }
+    @media (min-width: 456px) and (max-width:649px){
+        position: relative;
+        left: 10px !important;
+        background-color: lightblue;
+    }
+}

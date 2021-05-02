@@ -29,17 +29,6 @@
 .titlewhyus{
     color: blue;
 }
-.services h3 , .tripstitle{
-    text-align: center;
-    font-size: 45px !important;
-    font-weight: 500 !important;
-    color: black;
-    font:oblique;
-}
- .services .servicess , .tripstitle{
-   background-image: url('../images/image1.png');
-    background-color: rgba(5, 117, 230, 0.8) !important;
- } 
 
 .tripstitle h3{
     line-height: 1.8 !important;
@@ -75,108 +64,24 @@ hr{
       text-align: center;
   }
 
-  .new1 , .new2{
-    color: darkblue !important;
-    text-decoration: none !important;
-    font-size: 20px !important;
-    text-shadow: 0 1px 0 #fff !important;
-    opacity: .5 !important;
-    font-weight: unset !important;
-    float: unset !important;
-    line-height: unset !important;
-  }
-  .new1{
-    position: relative;
-    right: -45px; 
-  }
-  .new1:hover , .new2:hover{
-      background-color: darkblue;
-      color: lightblue;
-  }
-  
 .modal-footer{
   background-color: lightblue;
 }
-.pswforget{
-    position: relative;
-    right: -166px;
-}
-.card:hover {
-    transform: translateY(-.9%);
-}
-.card {
-    transition: transform .5s;
-}
+
+
 .card-body h5{
     color: blue;
 }
-.map{
-    position:relative;
-    right: 230px;
-    background-color: lightblue;
-}
-.container-contact .contactus{
-    background-color: lightblue;
-    position: relative;
-    right:130px;
-}
 
-.contact-us .title{
-    text-align: center;
-    color: darkblue;
-}
-.contact-us{
-     line-height:1px;
-}
-.submit{
-    position: relative;
-    right: 150px;
-    padding: 5px;
-    color: blue !important;
-    border-radius: 5px;
-    border-color: darkblue;
-    font-size: 15px;
-}
-.submit:hover{
-    background-color: darkblue;
-    color: lightblue;
-}
 #contact{
     position: relative;
 
 }
-footer .copyright {
-    border-top: 2px solid #262626;
-}
-footer .copyright p {
-    font-size: 15px;
-    line-height: 70px;
-    color: #565656;
-    text-align: center;
-}
+
 #top-menu .fa-bars{
     cursor: pointer;
 }
-.sidebar {
-    position: fixed;
-    z-index: 4;
-    right: -17rem;
-    transition: all 0.5s ease-in-out;
-    height: 37; 
-    overflow: hidden; 
-    padding-bottom: 60px;
-}
-.sidebar .list-group-item:hover {
-    color:lightblue;
-    background-color:darkblue;
-}
-.sidebar .list-group-item {
-    width: 17rem;
-    background-color: lightblue;
-    text-align: center;
-    text-decoration: none;
-    font-weight: 600;
-}
+
 #wrap.toggled .sidebar {
     right: 0rem;
 }
@@ -191,35 +96,11 @@ footer .copyright p {
  font-size: 20px;
  font-weight: 800;
 }
-@media(min-width:1170px){
-.map{
-    width:600px;
-}
- #commentForm a {
-    display: none !important;
-}
-}
-@media(min-width:991)and (max-width:1170px){
-    .map{
-        width:200px !important;
-    }
-    #commentForm a {
-        display: none !important;
-    }
-    
-}
+
+
 @media(max-width:991px){
     video{
         display:none;
-    }
-    .book{
-        display:none;
-    }
-    .map{
-            display:none;
-    }
-    .sidebar{
-        display: none;
     }
     .fa-bars{
         display:none;
@@ -227,78 +108,27 @@ footer .copyright p {
     .nav-item{
         display:none;
     }
-    .container-contact .contactus{
-        background-color: lightblue;
-        position: relative;
-        right:275px;
-    }
-    .submit{
-        position: relative;
-        right: -10px;
-        padding: 5px;
-    }
-    #commentForm a {
-        text-decoration: none;
-        color: darkblue;
-        position: relative;
-        right: 78px;
-    }
 }
 @media (min-width:430px) and (max-width: 776px) {
     hr{
         position: relative !important;
         right: 20px !important;
     }
-    .container-contact .contactus{
-        background-color: lightblue;
-        position: relative;
-        right: 250px !important;
-    }
    
 }
-@media (max-width: 430px){
-    .container-contact .contactus{
-        background-color: lightblue;
-        position: relative;
-        right:160px;
-    }
-    
-    
-}
+
 @media (min-width: 240px)and (max-width:430px){
-    .container-contact .contactus{
-        background-color: lightblue;
-        position: relative;
-        right:60px;
-    }
+    
     hr{
         position: relative;
         right: -5px;
     }
-    .pswforget{
-        right: -10px !important;
-    }
+    
     
 }
 /********************************** Landing page ***********************************************/
 
-.earth{
-    width: 300px;
-    height: 300px;
-    background-image: url('../images/earth.jpg');
-    position: absolute;
-    top: 450px;
-    bottom: 0px;
-    left: 0;
-    right: 920px;
-    margin: auto;
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    background-size: cover;
-    box-shadow: -20px -20px 50px 2px #000 inset, 0 0 20px 2px #000; 
-    animation: spin 30s linear alternate infinite;
-}
+
 @keyframes spin{
 100% {background-position:100%;}
 }
@@ -310,19 +140,6 @@ footer .copyright p {
     position: relative;
     top: 87px;
 }
-.book{
-    position:relative;
-    top:-2px !important;
-}
-.inner{
-    width: 83% !important;
-    position:relative;
-    top:52px;
-}
-.pyramids{
-    position:relative;
-    top: 32px;
-}
 .horizontalline{
     position: relative;
     top: 40px;
@@ -332,11 +149,7 @@ footer .copyright p {
     top: 36px;
     text-align: center;
 }
-.video1{
-    position: relative;
-    top: 90px;
 
-}
 #carouselExampleControls{
     position: absolute;
     top: 24px;
@@ -344,44 +157,13 @@ footer .copyright p {
 .detail{
     text-align: center;
 }
-.det{
-    background-color: beige;
-    position:relative;
-    top: 148px;
-}
-.det2{
-    background-color: beige;
-    position:relative;
-    top: 265px;
-}
-.video2{
-    position: relative;
-    top: 175px;
-}
-.inner{
-    position: relative;
-    right: -18px;
-}
-.trip2{
-    position: relative;
-    top: 93px;
-}
+
 .trip2caro{
     position: relative;
     top: 94px;
 }
 .parag{
     text-align: center;
-}
-.button1{
-    position: relative;
-    right: 620px;
-    background-color: lightblue;
-    font-weight: 600;
-    color: black;
-}
-.button1:hover{
-    background-color: darkblue;
 }
 .contact2{
     position:relative;
@@ -404,37 +186,16 @@ footer .copyright p {
         top: 250px;
     }
 @media(min-width:200px)and (max-width:450px){
-    .topmenu{
-        position: relative;
-        left: 10px !important;
-        background-color: lightblue;
-    }
     .row11{
          background-color: lightblue;
-    }
-    .earth{
-        display:none;
     }
     .inner2{
         position: relative;
         top: -1px !important;
     }
-    .pyramids{
-        position:relative;
-        top: -53px;
-    }
     .horizontalline2{
         position:relative;
         bottom: -245px;
-    }
-    .button1{
-        position:relative;
-        right:90px !important;
-    }
-    .inner{
-        position:relative;
-        right:14px;
-        top:-52px;
     }
     .horizontalfinal{
         position: relative;
@@ -461,51 +222,12 @@ footer .copyright p {
         position: relative;
         top: 620px !important;
     }
-    .earth{
-        display: none;
-    }
-    .topmenu{
-        position: relative;
-        left: 10px !important;
-        background-color: lightblue;
-    }
-    .button1{
-        position: relative;
-        right: 235px;
-    }
-    .pyramids{
-        position: relative;
-        top: -54px;
-        right: -12px;
-    }
     .contact2{
         background-color: transparent;
-    }
-    .inner{
-        position: relative;
-        top: -15px;
-        right: 34px;
-    }
-    .det{
-        position: relative;
-        top: 327px;
-    }
-    .trip2{
-        position: relative;
-        right: -12px !important;
-        top: 276px;
-    }
-    .det2{
-        position:relative;
-        top: 525px;
     }
     .inner2{
         position: relative;
         top: 217px;
-    }
-    .det2{
-        position: relative;
-        top: 641px;
     }
     .contactus2{
         position: relative;
@@ -519,36 +241,16 @@ footer .copyright p {
 
 }
 @media (min-width: 769px) and (max-width: 1024px){
-    .earth{
-        position: relative;
-        right: 542px;
-        top: 142px;
-    }
-    .book{
-        position: relative;
-        top: -241px !important;
-    }
+
     video{
         width: 491px !important;
         position:relative;
         right: 7px !important;
     }
-    .video1{
-        position:relative;
-        top: 95px !important;
-    }
-    .video2{
-        position: relative;
-        top: 192px !important;
-    }
-    .inner, .inner2{
+     .inner2{
         position: relative;
         top:93px !important;
         right: 42px !important;
-    }
-    .button1{
-        position:relative;
-        right:460px !important
     }
     .horizontalfinal{
         position: relative;
@@ -558,32 +260,12 @@ footer .copyright p {
         position:relative;
         top: 260px !important;
     }
-    .pyramids{
-        position: relative;
-        top: 20px;
-    }
-    .trip2{
-        position: relative;
-        top: 130px;
-    }
    
 }
 @media (min-width: 650px) and (max-width:768px){
-    .earth{
-        display: none;
-    }
-    .det{
-        position: relative;
-        top:34px;
-    }
     body{
         position: relative;
         top: 18px;
-    }
-    .inner{
-        position: relative;
-        right: 55px;
-        top: 315px;
     }
     .contactus2{
         position: relative;
@@ -593,10 +275,6 @@ footer .copyright p {
         position: relative;
         top: 625px !important;
         right: 315px !important;
-    }
-    .trip2{
-        position: relative;
-        top: 847px !important;
     }
     .contact2{
         background-color: transparent;
@@ -621,10 +299,6 @@ footer .copyright p {
     .horizontalline3{
         position: relative;
         top: 862px;
-    }
-    .button1{
-        position: relative;
-        right: 335px;
     }
     .horizontalfinal{
         position: relative;
