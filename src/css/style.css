@@ -166,6 +166,10 @@ right: 10px !important;
     .row11{
          background-color: lightblue;
     }
+    .trip2{
+        position: relative;
+        top: 134px;
+    }
 }
 @media (min-width: 456px) and (max-width:649px){
     
@@ -198,4 +202,10 @@ right: 10px !important;
         top: 50px !important;
     }
 
+}
+@media(min-width: 500px) and (max-width:545px){
+    .contactus{
+    position:relative;
+    right:167px !important;
+}
 }

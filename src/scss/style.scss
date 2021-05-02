@@ -102,9 +102,22 @@
                 position: relative !important;
                 right: 308px !important;
             }
-            @media (min-width: 240px)and (max-width:430px){
+            @media (min-width: 320px)and (max-width:430px){
                 position: relative;
                 right: 20px;
+            }
+            @media (min-width: 240px)and (max-width:319px){
+                position: relative;
+                right: 66px;
+            }
+            @media(min-width: 500px) and (max-width:545px){ 
+                position:relative;
+                right:197px !important;
+            }
+            @media(min-width:320px) and (max-width:414px){
+                position:relative;
+                right:110px !important;
+
             }
             position: relative;
             right: 260px;
@@ -128,10 +141,16 @@
                         right: 50px !important;
                     }
                 }
-                @media (min-width: 240px)and (max-width:430px){
+                @media (min-width: 320px)and (max-width:430px){
                     .card{
                         position: relative;
                         right: -50px;
+                    }
+                }
+                @media (min-width: 240px)and (max-width:319px){
+                    .card{
+                        position: relative;
+                        right: -88px;
                     }
                 }
            }
@@ -245,7 +264,7 @@
                         .contactus{
                             background-color: $brand-lightblue;
                             position: relative;
-                            right: 250px !important;
+                            right: 250px;
                         }
                     }
                     @media (max-width: 430px){
@@ -255,14 +274,21 @@
                             right:160px;
                         }
                     }
-                    @media (min-width: 240px)and (max-width:430px){
+                    @media (min-width: 320px)and (max-width:430px){
                         .contactus{
                             background-color: $brand-lightblue;
                             position: relative;
                             right:60px;
                         }
                     }
+                    @media (min-width: 240px)and (max-width:280px){
+                        .contactus{
+                            background-color: $brand-lightblue;
+                            position: relative;
+                            right:21px !important;
+                        }
                 }
+            }
                 .map{
                     position:relative;
                     right: 230px;
