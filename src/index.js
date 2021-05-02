@@ -12,6 +12,7 @@ import  '../src/images/landingpage/video1.mp4';
 import  '../src/images/landingpage/video2.mp4';
 $(function() {
     $("#yourModal").modal("hide"); 
+    /* التأكد ان كانت كلمة الر مطابقة */
     function checkPasswordMatch() {
         var password = $("#txtNewPassword").val();
         var confirmPassword = $("#txtConfirmPassword").val();
