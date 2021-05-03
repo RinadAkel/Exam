@@ -58,47 +58,7 @@
     }
     
 }
-.inner{
-    width: 83% !important;
-    position:relative;
-    top:52px;
-    right: -18px;
-    @media(min-width:200px)and (max-width:450px){
-        position:relative;
-        right:14px;
-        top:18px;
-    }
-    @media(min-width: 1025px) and (max-width: 1062px){
-        position: relative;
-        right: 81px !important;
-        top: 88px;
-    }
-    @media (min-width: 456px) and (max-width:649px){
-        position: relative;
-        top: 26px;
-        right: 34px;
-    }
-    @media (min-width: 991px) and (max-width: 1024px){
-        position: relative;
-        top:93px !important;
-        right: 42px !important;
-    }
-    @media (min-width: 650px) and (max-width:768px){
-        position: relative;
-        right: 55px;
-        top: 315px;
-    }
-    @media (min-width: 768px) and (max-width: 990px){
-        position: relative;
-        top: 88px;
-        right:55px;
-    }
-    @media(min-width: 1062px)and (max-width: 1226px){
-        position: relative;
-        right: 71px !important;
-        top: 88px;
-    }
-}
+
 .pyramids{
     position:relative;
     top: 32px;
@@ -133,14 +93,7 @@
         top: 95px !important;
     }
 }
-.video2{
-    position: relative;
-    top: 175px;
-    @media (min-width: 769px) and (max-width: 1024px){
-        position: relative;
-        top: 61px !important;
-    }
-}
+
 .det{
     background-color: $brand-beige;
     position:relative;
@@ -166,58 +119,8 @@
         top: 85px;
     }
 }
-.det2{
-    background-color: $brand-beige;
-    position:relative;
-    top: 265px;
-    @media (min-width: 456px) and (max-width:649px){
-        position:relative;
-        top: 358px;
-    }
-    @media(min-width:200px)and (max-width:450px){
-        position: relative;
-         top: 228px !important;
-    }
-    @media (min-width: 650px) and (max-width:768px){
-        position: relative;
-        top: 435px !important;
-    }
-    @media (min-width: 768px) and (max-width: 991px){
-        position: relative;
-        top: 483px;
-    }
-    @media (min-width: 992px) and (max-width: 1026px){
-        position: relative;
-        top: 42px;
-    }
 
-}
-.trip2{
-    position: relative;
-    top: 93px;
-    @media (min-width: 456px) and (max-width:649px){
-        position: relative;
-        right: -12px !important;
-        top: 21px;
-    }
-    @media (min-width: 992px) and (max-width: 1024px){
-        position: relative;
-        top: 37px;
-    }
-    @media (min-width: 768px) and (max-width: 991px){
-        position: relative;
-        top: 42px;
-        right:-18px
-    }
-    @media (min-width: 650px) and (max-width:768px){
-        position: relative;
-        top: -8px !important;
-    }
-    @media(min-width:200px)and (max-width:450px){
-        position: relative;
-        top: 29px;
-    }
-}
+
 .button1{
     position: relative;
     right: 620px;
@@ -285,54 +188,8 @@
         top: 37px;
     }
 }
-.horizontalline3{
-    position: relative;
-        top: 254px;
-        @media(min-width:200px)and (max-width:450px){
-            position: relative;
-           top: 235px;
-        }
-        @media (min-width: 456px) and (max-width:649px){
-            position: relative;
-            top: 352px;
-        }
-        @media (min-width: 992px) and (max-width: 1024px){
-            position:relative;
-            top: 60px;
-        }
-        @media (min-width: 650px) and (max-width:768px){
-            position: relative;
-            top: 428px !important;
-        }
-        @media(min-width:768px) and (max-width: 991px){
-            position:relative;
-            top: 474px;
-        }
-}
-.horizontalfinal{
-    position: relative;
-    top: 250px;
-    @media(min-width:200px)and (max-width:450px){
-        position: relative;
-        top: 244px;
-    }
-    @media (min-width: 456px) and (max-width:649px){
-        position: relative;
-        top: 349px !important;
-    }
-    @media (min-width: 992px) and (max-width: 1024px){
-        position: relative;
-        top: 153px;
-    }
-    @media (min-width: 650px) and (max-width:768px){
-        position: relative;
-        top: 407px;
-    }
-    @media (min-width: 769px) and (max-width: 991px){
-        position: relative;
-        top: 462px;
-    }
-}
+
+
 .inner2{
     @media(min-width:200px)and (max-width:280px){
         position: relative;

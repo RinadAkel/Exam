@@ -138,13 +138,13 @@ hr{
 .horizontalline{
     position: relative;
     top: 40px;
+    border: 10px solid #FF8672 !important;
 }
 .h3trip{
     position: relative;
     top: 36px;
     text-align: center;
 }
-
 #carouselExampleControls{
     position: absolute;
     top: 24px;
@@ -217,3 +217,19 @@ right: 10px !important;
     top: -129px !important;
     }
 }
+/******************************************************/
+.first1{
+    background-image: url('../images/v660-mon-35-travelbadge.jpg');
+    position:relative;
+    top: 83px;
+}
+.navbar1{
+    background-color: #FF8672 !important;
+    position: relative;
+}
+
+.hr1{
+    border: 10px solid #FF8672 !important;
+  border-radius: 5px;
+}
+

@@ -1,0 +1,368 @@
+@import '../scss/variables';
+.earth1{
+    width: 300px;
+    height: 300px;
+    background-image: url('../images/earth.jpg');
+    position: absolute;
+    top: 435px;
+    bottom: 0px;
+    left: 0;
+    right: 779px;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-size: cover;
+    box-shadow: -20px -20px 50px 2px #000 inset, 0 0 20px 2px #000; 
+    animation: spin 30s linear alternate infinite;
+    @media(min-width:200px)and (max-width:450px){
+        display:none;
+    }
+    @media (min-width: 456px) and (max-width:649px){
+        display: none;
+    }
+    @media (min-width: 992px) and (max-width: 1024px){
+        position: relative;
+        right: 542px;
+        top: 142px;
+    }
+    @media (min-width: 769px) and (max-width: 991px){
+        position: relative;
+        right: -23px;
+        top: 1px;
+    }
+    @media (min-width: 650px) and (max-width:768px){
+        display: none;
+    }
+    @media(min-width: 1026px) and (max-width: 1323px){
+        position: relative;
+        right: 653px !important;
+        top: 69px !important;
+    }
+    
+}
+.trip2{
+    position: relative;
+    top: 25px;
+    @media (min-width: 456px) and (max-width:649px){
+        position: relative;
+        right: -12px !important;
+        top: 21px;
+    }
+    @media (min-width: 992px) and (max-width: 1024px){
+        position: relative;
+        top: 37px;
+    }
+    @media (min-width: 768px) and (max-width: 991px){
+        position: relative;
+        top: 42px;
+        right:-18px
+    }
+    @media (min-width: 650px) and (max-width:768px){
+        position: relative;
+        top: -8px !important;
+    }
+    @media(min-width:200px)and (max-width:450px){
+        position: relative;
+        top: -56px;
+    }
+}
+.video2{
+    position: relative;
+    top: 25px;
+    @media (min-width: 769px) and (max-width: 1024px){
+        position: relative;
+        top: 61px !important;
+    }
+}
+.inner{
+    width: 75% !important;
+    position:relative;
+    top:-417px;
+    right: 741px;
+    @media(min-width:200px)and (max-width:450px){
+        position:relative;
+        right:14px;
+        top:18px;
+    }
+    @media(min-width: 1025px) and (max-width: 1062px){
+        position: relative;
+        right: 81px !important;
+        top: 88px;
+    }
+    @media (min-width: 456px) and (max-width:649px){
+        position: relative;
+        top: 26px;
+        right: 34px;
+    }
+    @media (min-width: 991px) and (max-width: 1024px){
+        position: relative;
+        top:93px !important;
+        right: 42px !important;
+    }
+    @media (min-width: 650px) and (max-width:768px){
+        position: relative;
+        right: 55px;
+        top: 315px;
+    }
+    @media (min-width: 768px) and (max-width: 990px){
+        position: relative;
+        top: 88px;
+        right:55px;
+    }
+    @media(min-width: 1062px)and (max-width: 1226px){
+        position: relative;
+        right: 71px !important;
+        top: 88px;
+    }
+}
+.det2{
+    background-color: #fcc9c0;
+    position:relative;
+    top: 208px;
+    @media (min-width: 456px) and (max-width:649px){
+        position:relative;
+        top: 358px;
+    }
+    @media(min-width:200px)and (max-width:450px){
+        position: relative;
+         top: 228px !important;
+    }
+    @media (min-width: 650px) and (max-width:768px){
+        position: relative;
+        top: 435px !important;
+    }
+    @media (min-width: 768px) and (max-width: 991px){
+        position: relative;
+        top: 483px;
+    }
+    @media (min-width: 992px) and (max-width: 1026px){
+        position: relative;
+        top: 42px;
+    }
+
+}
+.button2{
+    position: relative;
+    right: 620px;
+    background-color: #FF8672;
+    font-weight: 600;
+    color: $brand-dark;
+    &:hover{
+        background-color: $brand-darkblue;
+    }
+    @media(min-width:322px) and (max-width:414px){
+        position:relative;
+        right:155px !important;
+
+    }
+    @media(min-width:200px)and (max-width:321px){
+        position:relative;
+        right:90px !important;
+    }
+    @media (min-width: 456px) and (max-width:649px){
+        position: relative;
+        right: 235px;
+    }
+    @media (min-width: 991px) and (max-width: 1024px){
+        position:relative;
+        right:460px !important;
+    }
+    @media (min-width: 650px) and (max-width:768px){
+        position: relative;
+        right: 341px;
+    }
+    @media (min-width: 768px) and (max-width: 991px){
+        position:relative;
+        right:360px !important;
+    }
+    @media(min-width: 1025px)and (max-width: 1226px){
+        position: relative;
+        right: 454px !important;
+    }
+}
+.horizontalline3{
+    border: 10px solid #FF8672 !important;
+    position: relative;
+        top: 254px;
+        @media(min-width:200px)and (max-width:450px){
+            position: relative;
+           top: 194px;
+           right:3px;
+        }
+        @media (min-width: 456px) and (max-width:649px){
+            position: relative;
+            top: 352px;
+        }
+        @media (min-width: 992px) and (max-width: 1024px){
+            position:relative;
+            top: 60px;
+        }
+        @media (min-width: 650px) and (max-width:768px){
+            position: relative;
+            top: 428px !important;
+        }
+        @media(min-width:768px) and (max-width: 991px){
+            position:relative;
+            top: 474px;
+        }
+}
+.horizontalfinal{
+    border: 10px solid #FF8672 !important;
+    position: relative;
+    top: 238px;
+    @media(min-width:200px)and (max-width:450px){
+        position: relative;
+        top: 244px;
+    }
+    @media (min-width: 456px) and (max-width:649px){
+        position: relative;
+        top: 349px !important;
+    }
+    @media (min-width: 992px) and (max-width: 1024px){
+        position: relative;
+        top: 153px;
+    }
+    @media (min-width: 650px) and (max-width:768px){
+        position: relative;
+        top: 407px;
+    }
+    @media (min-width: 769px) and (max-width: 991px){
+        position: relative;
+        top: 462px;
+    }
+}
+.container-contact1{
+    .contactus{
+        background-color: #fcc9c0;
+        position: relative;
+        right:130px;
+        top: 87px;
+    }
+    @media(max-width:991px){
+        .contactus{
+            background-color: #FF8672;
+            position: relative;
+            right:275px;
+        }
+    }
+    @media (min-width:430px) and (max-width: 776px) {
+        .contactus{
+            background-color: #FF8672;
+            position: relative;
+            right: 250px;
+        }
+    }
+    @media (max-width: 430px){
+        .contactus{
+            background-color: #FF8672;
+            position: relative;
+            right:160px;
+        }
+    }
+    @media (min-width: 320px)and (max-width:430px){
+        .contactus{
+            background-color: #FF8672;
+            position: relative;
+            right:60px;
+        }
+    }
+    @media (min-width: 240px)and (max-width:280px){
+        .contactus{
+            background-color: #FF8672;
+            position: relative;
+            right:9px !important;
+        }
+}
+
+}
+.contact-us1{
+    line-height:1px;
+    .title{
+       text-align: center;
+       color: #fd3815;
+   }
+}
+.submit{
+   position: relative;
+   right: 108px;
+   padding: 5px;
+   color: #fd3815!important;
+   border-radius: 5px;
+   border-color: #FF8672;
+   font-size: 15px;
+   &:hover{
+       background-color: #FF8672;
+       color: #fcc9c0;
+   }
+   @media(max-width:991px){
+       position: relative;
+       right: -10px;
+       padding: 5px;
+   }
+}
+.map2{
+    position:relative;
+    right: 632px;
+    top:  -165px;
+    background-color: #fcc9c0;
+    @media(min-width:1170px){
+        width:600px;
+    }
+    @media(min-width:991)and (max-width:1170px){
+        width:200px !important;
+    }
+    @media(max-width:991px){
+        display:none;
+    }
+    @media(min-width: 1170px) and (max-width: 1288px){
+        position:relative;
+        right: 200px !important;
+        width: 450px !important;
+    }
+}
+.row2{
+    background-image: url('../images/1b368fe2-56b6-49da-9fca-08c7694d3ae8.jpg');
+    position:relative;
+    top: 49px;
+    @media(min-width:200px)and (max-width: 450px){
+        position: relative;
+        top: -32px;
+        right: 2px;
+    }
+}
+.row4{
+    background-image: url('../images/Contact-Us-Background-Image-with-colour-overlay.jpg');
+    background-position-y: 10px;
+    height: 436px;
+    @media(min-width:200px)and (max-width: 450px){
+        position: relative;
+        top: -32px;
+    }
+
+}
+#commentForm1 a{
+    color: #FF8672;
+    @media(min-width: 200px)and(max-width:450px){
+        position:relative;
+        right:40px;
+    }
+    @media(min-width:1170px){
+        a {
+            display: none !important;
+        }
+    }
+    @media(min-width:991)and (max-width:1170px){
+        a {
+            display: none !important;
+        }
+    }
+    @media(max-width:991px){
+        a {
+            text-decoration: none;
+            color: $brand-darkblue;
+            position: relative;
+            right: 78px;
+        }
+    }
+}

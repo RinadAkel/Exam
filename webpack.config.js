@@ -100,12 +100,12 @@ module.exports = {
       template: "./src/index.html",
     }),
     new HtmlWebpackPlugin({
-      filename: "landingpage.html",  
-      template: "./src/landingpage.html",
+      filename: "Egypt.html",  
+      template: "./src/Egypt.html",
     }),
     new HtmlWebpackPlugin({
-      filename: "landingpage2.html",  
-      template: "./src/landingpage2.html",
+      filename: "Turkey.html",  
+      template: "./src/Turkey.html",
     }),
     new MiniCssExtractPlugin({filename:"css/style.css"}),
     new OptimizeCssAssetsPlugin({}),

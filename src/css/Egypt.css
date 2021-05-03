@@ -1,0 +1,667 @@
+.book {
+  position: relative;
+  top: -2px !important;
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .book {
+    position: relative;
+    top: -241px !important;
+  }
+}
+@media (max-width: 991px) {
+  .book {
+    display: none;
+  }
+}
+@media (min-width: 1026px) and (max-width: 1323px) {
+  .book {
+    position: relative;
+    top: -298px !important;
+  }
+}
+
+.earth {
+  width: 300px;
+  height: 300px;
+  background-image: url("../images/earth.jpg");
+  position: absolute;
+  top: 450px;
+  bottom: 0px;
+  left: 0;
+  right: 991px;
+  margin: auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-size: cover;
+  box-shadow: -20px -20px 50px 2px #000 inset, 0 0 20px 2px #000;
+  animation: spin 30s linear alternate infinite;
+}
+@media (min-width: 200px) and (max-width: 450px) {
+  .earth {
+    display: none;
+  }
+}
+@media (min-width: 456px) and (max-width: 649px) {
+  .earth {
+    display: none;
+  }
+}
+@media (min-width: 992px) and (max-width: 1024px) {
+  .earth {
+    position: relative;
+    right: 542px;
+    top: 142px;
+  }
+}
+@media (min-width: 769px) and (max-width: 991px) {
+  .earth {
+    position: relative;
+    right: -23px;
+    top: 1px;
+  }
+}
+@media (min-width: 650px) and (max-width: 768px) {
+  .earth {
+    display: none;
+  }
+}
+@media (min-width: 1026px) and (max-width: 1323px) {
+  .earth {
+    position: relative;
+    right: 653px !important;
+    top: 69px !important;
+  }
+}
+
+.inner {
+  width: 83% !important;
+  position: relative;
+  top: 52px;
+  right: -18px;
+}
+@media (min-width: 200px) and (max-width: 450px) {
+  .inner {
+    position: relative;
+    right: 14px;
+    top: 18px;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1062px) {
+  .inner {
+    position: relative;
+    right: 81px !important;
+    top: 88px;
+  }
+}
+@media (min-width: 456px) and (max-width: 649px) {
+  .inner {
+    position: relative;
+    top: 26px;
+    right: 34px;
+  }
+}
+@media (min-width: 991px) and (max-width: 1024px) {
+  .inner {
+    position: relative;
+    top: 93px !important;
+    right: 42px !important;
+  }
+}
+@media (min-width: 650px) and (max-width: 768px) {
+  .inner {
+    position: relative;
+    right: 55px;
+    top: 315px;
+  }
+}
+@media (min-width: 768px) and (max-width: 990px) {
+  .inner {
+    position: relative;
+    top: 88px;
+    right: 55px;
+  }
+}
+@media (min-width: 1062px) and (max-width: 1226px) {
+  .inner {
+    position: relative;
+    right: 71px !important;
+    top: 88px;
+  }
+}
+
+.pyramids {
+  position: relative;
+  top: 32px;
+}
+@media (min-width: 200px) and (max-width: 450px) {
+  .pyramids {
+    position: relative;
+    top: 18px;
+  }
+}
+@media (min-width: 456px) and (max-width: 649px) {
+  .pyramids {
+    position: relative;
+    top: 23px !important;
+    right: -12px;
+  }
+}
+@media (min-width: 991px) and (max-width: 1024px) {
+  .pyramids {
+    position: relative;
+    top: 20px;
+  }
+}
+@media (min-width: 768px) and (max-width: 990px) {
+  .pyramids {
+    position: relative;
+    top: 44px;
+  }
+}
+@media (min-width: 650px) and (max-width: 768px) {
+  .pyramids {
+    position: relative;
+    top: 2px;
+  }
+}
+
+.video1 {
+  position: relative;
+  top: 90px;
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .video1 {
+    position: relative;
+    top: 95px !important;
+  }
+}
+
+.video2 {
+  position: relative;
+  top: 175px;
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .video2 {
+    position: relative;
+    top: 61px !important;
+  }
+}
+
+.det {
+  background-color: beige;
+  position: relative;
+  top: 195px;
+}
+@media (min-width: 456px) and (max-width: 649px) {
+  .det {
+    position: relative;
+    top: 327px;
+  }
+}
+@media (min-width: 650px) and (max-width: 767px) {
+  .det {
+    position: relative;
+    top: 34px;
+  }
+}
+@media (min-width: 200px) and (max-width: 450px) {
+  .det {
+    position: relative;
+    top: 189px !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .det {
+    position: relative;
+    top: 610px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1024px) {
+  .det {
+    position: relative;
+    top: 85px;
+  }
+}
+
+.det2 {
+  background-color: beige;
+  position: relative;
+  top: 265px;
+}
+@media (min-width: 456px) and (max-width: 649px) {
+  .det2 {
+    position: relative;
+    top: 358px;
+  }
+}
+@media (min-width: 200px) and (max-width: 450px) {
+  .det2 {
+    position: relative;
+    top: 228px !important;
+  }
+}
+@media (min-width: 650px) and (max-width: 768px) {
+  .det2 {
+    position: relative;
+    top: 435px !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .det2 {
+    position: relative;
+    top: 483px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1026px) {
+  .det2 {
+    position: relative;
+    top: 42px;
+  }
+}
+
+.trip2 {
+  position: relative;
+  top: 93px;
+}
+@media (min-width: 456px) and (max-width: 649px) {
+  .trip2 {
+    position: relative;
+    right: -12px !important;
+    top: 21px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1024px) {
+  .trip2 {
+    position: relative;
+    top: 37px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .trip2 {
+    position: relative;
+    top: 42px;
+    right: -18px;
+  }
+}
+@media (min-width: 650px) and (max-width: 768px) {
+  .trip2 {
+    position: relative;
+    top: -8px !important;
+  }
+}
+@media (min-width: 200px) and (max-width: 450px) {
+  .trip2 {
+    position: relative;
+    top: 29px;
+  }
+}
+
+.button1 {
+  position: relative;
+  right: 620px;
+  background-color: lightblue;
+  font-weight: 600;
+  color: black;
+}
+.button1:hover {
+  background-color: darkblue;
+}
+@media (min-width: 322px) and (max-width: 414px) {
+  .button1 {
+    position: relative;
+    right: 155px !important;
+  }
+}
+@media (min-width: 200px) and (max-width: 321px) {
+  .button1 {
+    position: relative;
+    right: 90px !important;
+  }
+}
+@media (min-width: 456px) and (max-width: 649px) {
+  .button1 {
+    position: relative;
+    right: 235px;
+  }
+}
+@media (min-width: 991px) and (max-width: 1024px) {
+  .button1 {
+    position: relative;
+    right: 460px !important;
+  }
+}
+@media (min-width: 650px) and (max-width: 768px) {
+  .button1 {
+    position: relative;
+    right: 341px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .button1 {
+    position: relative;
+    right: 360px !important;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1226px) {
+  .button1 {
+    position: relative;
+    right: 454px !important;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 450px) {
+  .topmenu {
+    position: relative;
+    left: -8px !important;
+    background-color: lightblue;
+  }
+}
+@media (min-width: 456px) and (max-width: 649px) {
+  .topmenu {
+    position: relative;
+    left: -8px !important;
+    background-color: lightblue;
+  }
+}
+@media (min-width: 650px) and (max-width: 768px) {
+  .topmenu {
+    position: relative;
+    left: -8px !important;
+    background-color: lightblue;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 450px) {
+  .horizontalline2 {
+    position: relative;
+    bottom: -245px;
+  }
+}
+@media (min-width: 650px) and (max-width: 768px) {
+  .horizontalline2 {
+    position: relative;
+    top: 37px;
+  }
+}
+
+.horizontalline3 {
+  position: relative;
+  top: 254px;
+}
+@media (min-width: 200px) and (max-width: 450px) {
+  .horizontalline3 {
+    position: relative;
+    top: 235px;
+  }
+}
+@media (min-width: 456px) and (max-width: 649px) {
+  .horizontalline3 {
+    position: relative;
+    top: 352px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1024px) {
+  .horizontalline3 {
+    position: relative;
+    top: 60px;
+  }
+}
+@media (min-width: 650px) and (max-width: 768px) {
+  .horizontalline3 {
+    position: relative;
+    top: 428px !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .horizontalline3 {
+    position: relative;
+    top: 474px;
+  }
+}
+
+.horizontalfinal {
+  position: relative;
+  top: 250px;
+}
+@media (min-width: 200px) and (max-width: 450px) {
+  .horizontalfinal {
+    position: relative;
+    top: 244px;
+  }
+}
+@media (min-width: 456px) and (max-width: 649px) {
+  .horizontalfinal {
+    position: relative;
+    top: 349px !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1024px) {
+  .horizontalfinal {
+    position: relative;
+    top: 153px;
+  }
+}
+@media (min-width: 650px) and (max-width: 768px) {
+  .horizontalfinal {
+    position: relative;
+    top: 407px;
+  }
+}
+@media (min-width: 769px) and (max-width: 991px) {
+  .horizontalfinal {
+    position: relative;
+    top: 462px;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 280px) {
+  .inner2 {
+    position: relative;
+    top: -43px !important;
+  }
+}
+@media (min-width: 350px) and (max-width: 455px) {
+  .inner2 {
+    position: relative;
+    top: -57px !important;
+  }
+}
+@media (min-width: 456px) and (max-width: 649px) {
+  .inner2 {
+    position: relative;
+    top: -51px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1024px) {
+  .inner2 {
+    position: relative;
+    top: -33px !important;
+    right: 42px !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .inner2 {
+    position: relative;
+    top: -35px !important;
+    right: 42px !important;
+  }
+}
+@media (min-width: 650px) and (max-width: 768px) {
+  .inner2 {
+    position: relative;
+    right: 58px !important;
+    top: -89px !important;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1040px) {
+  .inner2 {
+    position: relative;
+    right: 92px !important;
+    top: 88px;
+  }
+}
+
+.contact2 {
+  position: relative;
+  top: 245px;
+}
+@media (min-width: 200px) and (max-width: 450px) {
+  .contact2 {
+    background-color: transparent;
+  }
+}
+@media (min-width: 456px) and (max-width: 649px) {
+  .contact2 {
+    background-color: transparent;
+  }
+}
+@media (min-width: 650px) and (max-width: 768px) {
+  .contact2 {
+    background-color: transparent;
+  }
+}
+
+@media (min-width: 456px) and (max-width: 649px) {
+  .contactus2 {
+    position: relative;
+    top: 104px !important;
+  }
+}
+@media (min-width: 650px) and (max-width: 768px) {
+  .contactus2 {
+    position: relative;
+    right: 275px !important;
+    top: 173px !important;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 319px) {
+  .contactus3 {
+    position: relative;
+    right: 24px !important;
+    top: -10px !important;
+  }
+}
+@media (min-width: 320px) and (max-width: 321px) {
+  .contactus3 {
+    position: relative;
+    right: 43px !important;
+  }
+}
+@media (min-width: 650px) and (max-width: 767px) {
+  .contactus3 {
+    position: relative;
+    top: 171px !important;
+    right: 271px !important;
+  }
+}
+@media (min-width: 360px) and (max-width: 375px) {
+  .contactus3 {
+    position: relative;
+    right: 72px !important;
+  }
+}
+@media (min-width: 322px) and (max-width: 359px) {
+  .contactus3 {
+    position: relative;
+    right: 86px !important;
+    top: -10px !important;
+  }
+}
+@media (min-width: 376px) and (max-width: 414px) {
+  .contactus3 {
+    position: relative;
+    right: 86px !important;
+    top: -10px !important;
+  }
+}
+@media (min-width: 769px) and (max-width: 991px) {
+  .contactus3 {
+    position: relative;
+    top: 223px !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1024px) {
+  .contactus3 {
+    position: relative;
+    top: -128px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .contactus4 {
+    position: relative;
+    top: 362px !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .contactus4 {
+    position: relative;
+    right: 291px !important;
+  }
+}
+@media (min-width: 456px) and (max-width: 649px) {
+  .contactus4 {
+    position: relative;
+    top: 59px !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1024px) {
+  .contactus4 {
+    position: relative;
+    top: -111px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .horizontalline4 {
+    position: relative;
+    top: 604px !important;
+  }
+}
+@media (min-width: 456px) and (max-width: 649px) {
+  .horizontalline4 {
+    position: relative;
+    top: 315px !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1024px) {
+  .horizontalline4 {
+    position: relative !important;
+    top: 125px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .horizontalfinal4 {
+    position: relative;
+    top: 604px !important;
+  }
+}
+@media (min-width: 456px) and (max-width: 649px) {
+  .horizontalfinal4 {
+    position: relative;
+    top: 300px !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1024px) {
+  .horizontalfinal4 {
+    position: relative;
+    top: 134px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .hr {
+    position: relative;
+    top: -67px;
+  }
+}
+@media (max-width: 1024px) {
+  .hr {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=Egypt.css.map */
