@@ -6,7 +6,7 @@
     top:-2px !important;
     @media (min-width: 769px) and (max-width: 1024px){
         position: relative;
-        top: -241px !important;
+        top: -97px !important;
     }
     @media(max-width:991px){
         display:none;
@@ -186,67 +186,6 @@
     @media (min-width: 650px) and (max-width:768px){
         position: relative;
         top: 37px;
-    }
-}
-
-
-.inner2{
-    @media(min-width:200px)and (max-width:280px){
-        position: relative;
-        top: -43px !important;
-    }
-    @media(min-width:350px)and (max-width:455px){
-        position: relative;
-        top: -57px !important;
-    }
-    @media (min-width: 456px) and (max-width:649px){
-        position: relative;
-        top: -51px;
-    }
-    @media (min-width: 992px) and (max-width: 1024px){
-        position: relative;
-        top:-33px !important;
-        right: 42px !important;
-    }
-    @media (min-width: 768px) and (max-width: 991px){
-        position: relative;
-        top:-35px !important;
-        right: 42px !important;
-    }
-    
-    @media (min-width: 650px) and (max-width:768px){
-        position: relative;
-        right: 58px !important;
-        top: -89px !important;
-    }
-    @media(min-width: 1025px)and (max-width: 1040px){
-        position: relative;
-        right: 92px !important;
-        top: 88px;
-    }
-}
-.contact2{
-    position:relative;
-    top: 245px;
-    @media(min-width:200px)and (max-width:450px){
-        background-color: transparent;
-    }
-    @media (min-width: 456px) and (max-width:649px){
-            background-color: transparent;
-        }
-        @media (min-width: 650px) and (max-width:768px){
-            background-color: transparent;
-        }
-}
-.contactus2{
-    @media (min-width: 456px) and (max-width:649px){
-        position: relative;
-        top: 104px !important;
-    }
-    @media (min-width: 650px) and (max-width:768px){
-        position: relative;
-        right: 275px !important;
-        top: 173px !important;
     }
 }
 .contactus3{

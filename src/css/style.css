@@ -214,7 +214,7 @@ right: 10px !important;
 @media (min-width: 992px) and (max-width: 1024px){
     .map2{
     position:relative;
-    top: -129px !important;
+    top: -166px !important;
     }
 }
 /******************************************************/
@@ -225,7 +225,6 @@ right: 10px !important;
 }
 .navbar1{
     background-color: #FF8672 !important;
-    position: relative;
 }
 
 .hr1{
