@@ -34,10 +34,10 @@
     @media (min-width: 650px) and (max-width:768px){
         display: none;
     }
-    @media(min-width: 1026px) and (max-width: 1323px){
+    @media(min-width: 1025px) and (max-width: 1323px){
         position: relative;
-        right: 653px !important;
-        top: 69px !important;
+        right: 494px !important;
+        top: 285px !important;
     }
     
 }
@@ -204,7 +204,7 @@
         }
         @media(min-width:768px) and (max-width: 991px){
             position:relative;
-            top: 474px;
+            top: 522px;
         }
 }
 .horizontalfinal{
@@ -314,10 +314,10 @@
     @media(max-width:991px){
         display:none;
     }
-    @media(min-width: 1170px) and (max-width: 1288px){
+    @media(min-width:1142px) and (max-width:1288px){
         position:relative;
-        right: 200px !important;
-        width: 450px !important;
+        right:619px !important;
+        width: 450px;
     }
 }
 .row2{
@@ -417,13 +417,17 @@
         position: relative;
         top:285px;
     }
-    @media(min-width: 430px)and (max-width:767px){
+    @media(min-width: 430px)and (max-width:649px){
         position:relative;
         top: 400px !important;
     }
+    @media(min-width:650px)and (max-width:767px){
+        position:relative;
+        top:463px;
+    }
     @media(min-width:768px)and (max-width:991px){
         position:relative;
-        top:475px;
+        top:515px;
     }
     @media(min-width:992px)and (max-width:1025px){
         position:relative;
@@ -464,6 +468,12 @@
         position: relative;
         right: 92px !important;
         top: 88px;
+    }
+    @media(min-width:1025px) and (max-width:1338px){
+        position:relative;
+        right:619px !important;
+        top: -388px;
+        height: 245px !important;
     }
 }
 
