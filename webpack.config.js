@@ -103,6 +103,10 @@ module.exports = {
       filename: "landingpage.html",  
       template: "./src/landingpage.html",
     }),
+    new HtmlWebpackPlugin({
+      filename: "landingpage2.html",  
+      template: "./src/landingpage2.html",
+    }),
     new MiniCssExtractPlugin({filename:"css/style.css"}),
     new OptimizeCssAssetsPlugin({}),
   ],

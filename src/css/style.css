@@ -110,10 +110,11 @@ hr{
 @media (min-width:430px) and (max-width: 776px) {
     hr{
         position: relative !important;
-        right: 20px !important;
+        right: -2px !important;
     }
    
 }
+
 
 @media (min-width: 240px)and (max-width:430px){
     
@@ -165,14 +166,11 @@ display: inline-block !important;
 overflow: hidden !important;
 white-space: nowrap !important;
 right: 10px !important;
-}  
+} 
+
 @media(min-width:200px)and (max-width:450px){
     .row11{
          background-color: lightblue;
-    }
-    .trip2{
-        position: relative;
-        top: 134px;
     }
 }
 @media (min-width: 456px) and (max-width:649px){
@@ -212,4 +210,10 @@ right: 10px !important;
     position:relative;
     right:167px !important;
 }
+}
+@media (min-width: 992px) and (max-width: 1024px){
+    .map2{
+    position:relative;
+    top: -129px !important;
+    }
 }

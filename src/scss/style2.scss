@@ -68,6 +68,11 @@
         right:14px;
         top:18px;
     }
+    @media(min-width: 1025px) and (max-width: 1062px){
+        position: relative;
+        right: 81px !important;
+        top: 88px;
+    }
     @media (min-width: 456px) and (max-width:649px){
         position: relative;
         top: 26px;
@@ -85,10 +90,10 @@
     }
     @media (min-width: 768px) and (max-width: 990px){
         position: relative;
-        top: 44px;
-        right:42px;
+        top: 88px;
+        right:55px;
     }
-    @media(min-width: 1025px)and (max-width: 1226px){
+    @media(min-width: 1062px)and (max-width: 1226px){
         position: relative;
         right: 71px !important;
         top: 88px;
@@ -127,25 +132,24 @@
         position:relative;
         top: 95px !important;
     }
-
 }
 .video2{
     position: relative;
     top: 175px;
     @media (min-width: 769px) and (max-width: 1024px){
         position: relative;
-        top: 192px !important;
+        top: 61px !important;
     }
 }
 .det{
     background-color: $brand-beige;
     position:relative;
-    top: 148px;
+    top: 195px;
     @media (min-width: 456px) and (max-width:649px){
         position: relative;
         top: 327px;
     }
-    @media (min-width: 650px) and (max-width:768px){
+    @media (min-width: 650px) and (max-width:767px){
         position: relative;
         top:34px;
     }
@@ -155,7 +159,11 @@
     }
     @media (min-width: 768px) and (max-width: 991px){
         position: relative;
-        top: 555px;
+        top: 610px;
+    }
+    @media(min-width: 992px) and (max-width: 1024px){
+        position: relative;
+        top: 85px;
     }
 }
 .det2{
@@ -164,21 +172,25 @@
     top: 265px;
     @media (min-width: 456px) and (max-width:649px){
         position:relative;
-        top: 525px;
-        top: 641px;
+        top: 358px;
     }
     @media(min-width:200px)and (max-width:450px){
         position: relative;
-         top: 285px !important;
+         top: 228px !important;
     }
     @media (min-width: 650px) and (max-width:768px){
         position: relative;
-        top: 405px !important;
+        top: 435px !important;
     }
     @media (min-width: 768px) and (max-width: 991px){
         position: relative;
-        top: 980px;
+        top: 483px;
     }
+    @media (min-width: 992px) and (max-width: 1026px){
+        position: relative;
+        top: 42px;
+    }
+
 }
 .trip2{
     position: relative;
@@ -186,19 +198,24 @@
     @media (min-width: 456px) and (max-width:649px){
         position: relative;
         right: -12px !important;
-        top: 276px;
+        top: 21px;
     }
     @media (min-width: 992px) and (max-width: 1024px){
         position: relative;
-        top: 130px;
+        top: 37px;
     }
     @media (min-width: 768px) and (max-width: 991px){
         position: relative;
-        top: 500px;
+        top: 42px;
+        right:-18px
     }
     @media (min-width: 650px) and (max-width:768px){
         position: relative;
-        top: 400px !important;
+        top: -8px !important;
+    }
+    @media(min-width:200px)and (max-width:450px){
+        position: relative;
+        top: 29px;
     }
 }
 .button1{
@@ -210,12 +227,12 @@
     &:hover{
         background-color: $brand-darkblue;
     }
-    @media(min-width:320px) and (max-width:414px){
+    @media(min-width:322px) and (max-width:414px){
         position:relative;
-        right:125px !important;
+        right:155px !important;
 
     }
-    @media(min-width:200px)and (max-width:319px){
+    @media(min-width:200px)and (max-width:321px){
         position:relative;
         right:90px !important;
     }
@@ -229,7 +246,7 @@
     }
     @media (min-width: 650px) and (max-width:768px){
         position: relative;
-        right: 335px;
+        right: 341px;
     }
     @media (min-width: 768px) and (max-width: 991px){
         position:relative;
@@ -273,23 +290,23 @@
         top: 254px;
         @media(min-width:200px)and (max-width:450px){
             position: relative;
-           top: 272px;
+           top: 235px;
         }
         @media (min-width: 456px) and (max-width:649px){
             position: relative;
-            top: 633px !important;
+            top: 352px;
         }
         @media (min-width: 992px) and (max-width: 1024px){
             position:relative;
-            top: 260px !important;
+            top: 60px;
         }
         @media (min-width: 650px) and (max-width:768px){
             position: relative;
-            top: 862px;
+            top: 428px !important;
         }
         @media(min-width:768px) and (max-width: 991px){
             position:relative;
-            top: 975px;
+            top: 474px;
         }
 }
 .horizontalfinal{
@@ -301,45 +318,49 @@
     }
     @media (min-width: 456px) and (max-width:649px){
         position: relative;
-        top: 620px !important;
+        top: 349px !important;
     }
     @media (min-width: 992px) and (max-width: 1024px){
         position: relative;
-        top: 240px !important;
+        top: 153px;
     }
     @media (min-width: 650px) and (max-width:768px){
         position: relative;
-        top: 877px;
+        top: 407px;
     }
-    @media (min-width: 768px) and (max-width: 991px){
+    @media (min-width: 769px) and (max-width: 991px){
         position: relative;
-        top: 964px !important;
+        top: 462px;
     }
 }
 .inner2{
-    @media(min-width:200px)and (max-width:450px){
+    @media(min-width:200px)and (max-width:280px){
         position: relative;
-        top: 39px !important;
+        top: -43px !important;
+    }
+    @media(min-width:350px)and (max-width:455px){
+        position: relative;
+        top: -57px !important;
     }
     @media (min-width: 456px) and (max-width:649px){
         position: relative;
-        top: 217px;
+        top: -51px;
     }
     @media (min-width: 992px) and (max-width: 1024px){
         position: relative;
-        top:93px !important;
+        top:-33px !important;
         right: 42px !important;
     }
     @media (min-width: 768px) and (max-width: 991px){
         position: relative;
-        top:410px !important;
+        top:-35px !important;
         right: 42px !important;
     }
     
     @media (min-width: 650px) and (max-width:768px){
         position: relative;
         right: 58px !important;
-        top: 913px !important;
+        top: -89px !important;
     }
     @media(min-width: 1025px)and (max-width: 1040px){
         position: relative;
@@ -363,33 +384,106 @@
 .contactus2{
     @media (min-width: 456px) and (max-width:649px){
         position: relative;
-        top: 380px !important;
+        top: 104px !important;
     }
     @media (min-width: 650px) and (max-width:768px){
         position: relative;
-        right: 500px !important;
+        right: 275px !important;
+        top: 173px !important;
     }
 }
 .contactus3{
     @media(min-width:200px)and (max-width:319px){
         position: relative;
         right: 24px !important;
-        top: 12px !important;
+        top: -10px !important;
     }
-    @media (min-width: 650px) and (max-width:768px){
+    @media(min-width: 320px)and (max-width:321px){
         position: relative;
-        top: 625px !important;
-        right: 250px !important;
+        right:43px !important;
     }
-    @media(min-width:320px) and (max-width:414px){
-        position:relative;
-        right:65px !important;
-        top: 15px !important;
-
+    @media (min-width: 650px) and (max-width:767px){
+        position: relative;
+        top: 171px !important;
+        right: 271px !important;
     }
-    @media(min-width: 768px) and (max-width: 991px){
+    @media (min-width: 360px)and (max-width:375px){
         position:relative;
-        top: 723px !important;
+        right: 72px !important;
+   }
+    @media(min-width:322px) and (max-width:359px){
+        position:relative;
+        right:86px !important;
+        top: -10px !important;
+    }
+    @media(min-width:376px) and (max-width:414px){
+        position:relative;
+        right:86px !important;
+        top: -10px !important;
+    }
+    @media(min-width: 769px) and (max-width: 991px){
+        position:relative;
+        top: 223px !important;
+    }
+    @media (min-width: 992px) and (max-width: 1024px){
+        position:relative;
+        top: -128px;
     }
    
 }
+.contactus4{
+    @media (min-width: 768px) and (max-width: 991px){
+        position: relative;
+        top: 362px !important;
+    }
+    @media(min-width:768px) and (max-width: 991px){
+        position:relative;
+        right: 291px !important;
+        }
+        @media (min-width: 456px) and (max-width:649px){
+            position: relative;
+            top: 59px !important;
+        }
+        @media(min-width: 992px) and (max-width: 1024px){
+            position: relative;
+            top: -111px !important;
+        }
+}
+.horizontalline4{
+    @media (min-width: 768px) and (max-width: 991px){
+        position: relative;
+        top: 604px !important;
+    }
+    @media (min-width: 456px) and (max-width:649px){
+        position: relative;
+        top: 315px !important;
+    }
+    @media(min-width: 992px) and (max-width: 1024px){
+        position: relative !important;
+        top: 125px !important;
+    }
+}
+.horizontalfinal4{
+    @media (min-width: 768px) and (max-width: 991px){
+        position: relative;
+        top: 604px !important;
+    }
+    @media (min-width: 456px) and (max-width:649px){
+            position: relative;
+            top: 300px !important;
+    }
+    @media(min-width: 992px) and (max-width: 1024px){
+            position:relative;
+            top: 134px;
+        }
+}
+.hr{
+     @media(min-width: 1025px){
+        position: relative;
+        top: -67px;
+      }
+       @media(max-width: 1024px){
+
+            display:none;
+        }
+    }

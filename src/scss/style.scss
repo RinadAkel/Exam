@@ -300,7 +300,19 @@
                 }
                 
             }
-                .map{
+            
+            .map3{
+               @media(max-width:991px){
+                display:none;
+                }
+                @media(min-width: 992px) and (max-width: 1024px){
+                   position: relative;
+                   top: -111px !important;
+                   right: 276px !important;
+               
+                }
+            }
+                .map,.map3{
                     position:relative;
                     right: 230px;
                     background-color: $brand-lightblue;
