@@ -177,7 +177,7 @@ right: 10px !important;
     
     hr{
         position: relative;
-        right: 10px !important;
+        right: 10px;
     }
 
 }
@@ -231,6 +231,16 @@ right: 10px !important;
     border: 10px solid #FF8672 !important;
   border-radius: 5px;
 }
-
-
+.hr2{
+    border: 10px solid  #F8d975 !important;
+  border-radius: 5px;
+}
+.navbar2{
+    background-color:  #f8d975 !important;
+}
+.horizontal{
+    position: relative;
+    top: 40px;
+    border: 10px solid #f8d975 !important;
+}
 

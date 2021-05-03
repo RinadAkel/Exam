@@ -75,73 +75,7 @@
         top: 61px !important;
     }
 }
-.inner{
-    width: 75% !important;
-    position:relative;
-    top:-417px;
-    right: 741px;
-    @media(min-width:200px)and (max-width:450px){
-        position:relative;
-        right:25px;
-        top:-72px;
-    }
-    @media(min-width: 1025px) and (max-width: 1062px){
-        position: relative;
-        right: 81px !important;
-        top: 88px;
-    }
-    @media (min-width: 456px) and (max-width:649px){
-        position: relative;
-        top: 26px;
-        right: 34px;
-    }
-    @media (min-width: 991px) and (max-width: 1024px){
-        position: relative;
-        top:93px !important;
-        right: 42px !important;
-    }
-    @media (min-width: 650px) and (max-width:768px){
-        position: relative;
-        right: 55px;
-        top: 315px;
-    }
-    @media (min-width: 768px) and (max-width: 990px){
-        position: relative;
-        top: 88px;
-        right:55px;
-    }
-    @media(min-width: 1062px)and (max-width: 1226px){
-        position: relative;
-        right: 71px !important;
-        top: 88px;
-    }
-}
-.det2{
-    background-color: #fcc9c0;
-    position:relative;
-    top: 208px;
-    @media (min-width: 456px) and (max-width:649px){
-        position:relative;
-        top: 358px;
-    }
-    @media(min-width:200px)and (max-width:450px){
-        position: relative;
-         top: 228px !important;
-    }
-    @media (min-width: 650px) and (max-width:768px){
-        position: relative;
-        top: 435px !important;
-    }
-    @media (min-width: 768px) and (max-width: 991px){
-        position: relative;
-        top: 483px;
-    }
-    @media (min-width: 992px) and (max-width: 1026px){
-        position: relative;
-        top: 42px;
-    }
 
-}
 .button2{
     position: relative;
     right: 620px;
@@ -343,6 +277,21 @@
     }
 
 }
+.book{
+    position:relative;
+    top:-2px !important;
+    @media (min-width: 769px) and (max-width: 1024px){
+        position: relative;
+        top: -212px !important;
+    }
+    @media(max-width:991px){
+        display:none;
+    }
+    @media(min-width: 1025px) and (max-width: 1323px){
+        position: relative;
+        top: -111px !important;
+    }
+}
 #commentForm1 a{
     color: #FF8672;
     @media(min-width: 200px)and(max-width:450px){
@@ -410,7 +359,7 @@
     }
    
 }
-.contact2{
+.contact3{
     position:relative;
     top: 245px;
     @media(min-width:200px)and (max-width:450px){
@@ -419,11 +368,15 @@
     }
     @media(min-width: 430px)and (max-width:649px){
         position:relative;
-        top: 400px !important;
+        top: 518px !important;
+    }
+    @media(min-width:768px)and (max-width:768px){
+        position:relative;
+        top:463px;
     }
     @media(min-width:650px)and (max-width:767px){
         position:relative;
-        top:463px;
+        top:546px;
     }
     @media(min-width:768px)and (max-width:991px){
         position:relative;
@@ -435,6 +388,10 @@
     }
 }
 .inner2{
+    width: 75% !important;
+    position:relative;
+    top:-422px;
+    right: 741px;
     @media(min-width:200px)and (max-width:280px){
         position: relative;
         top: -43px !important;

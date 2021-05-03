@@ -1,19 +1,19 @@
 @import '../scss/variables';
 //for the landing page
 
-.book{
+.book1{
     position:relative;
     top:-2px !important;
     @media (min-width: 769px) and (max-width: 1024px){
         position: relative;
-        top: -97px !important;
+        top: -217px !important;
     }
     @media(max-width:991px){
         display:none;
     }
     @media(min-width: 1025px) and (max-width: 1323px){
         position: relative;
-        top: -111px !important;
+        top: -252px !important;
     }
 }
 .earth{
@@ -46,7 +46,7 @@
     @media (min-width: 769px) and (max-width: 991px){
         position: relative;
         right: -23px;
-        top: 1px;
+        top: 6px;
     }
     @media (min-width: 650px) and (max-width:768px){
         display: none;
@@ -61,27 +61,27 @@
 
 .pyramids{
     position:relative;
-    top: 32px;
+    top: -26px;
     @media(min-width:200px)and (max-width:450px){
         position:relative;
-        top: 18px;
+        top: -20px;
     }
     @media (min-width: 456px) and (max-width:649px){
         position: relative;
-        top: 23px !important;
+        top: -156px !important;
         right: -12px;
     }
     @media (min-width: 991px) and (max-width: 1024px){
         position: relative;
         top: 20px;
     }
-    @media (min-width: 768px) and (max-width: 990px){
+    @media (min-width: 769px) and (max-width: 991px){
         position: relative;
-        top: 44px;
+        top: -165px;
     }
     @media (min-width: 650px) and (max-width:768px){
         position: relative;
-        top:2px;
+        top:-155px;
     }
 
 }
@@ -93,9 +93,111 @@
         top: 95px !important;
     }
 }
+.horizontalline4{
+    border: 10px solid #f8d975 !important;
+    position: relative;
+    top: 265px;
+        @media(min-width:200px)and (max-width:450px){
+            position: relative;
+           top: 262px;
+           right:3px;
+        }
+        @media (min-width: 456px) and (max-width:649px){
+            position: relative;
+            top: 514px;
+        }
+        @media (min-width: 992px) and (max-width: 1024px){
+            position:relative;
+            top: 108px;
+        }
+        @media (min-width: 768px) and (max-width:768px){
+            position: relative;
+            top: 479px !important;
+        }
+        @media (min-width: 650px) and (max-width:767px){
+            position: relative;
+            top: 535px !important;
+        }
+        @media(min-width:769px) and (max-width: 991px){
+            position:relative;
+            top: 569px !important;
+        }
+}
+.inner{
+    width: 75% !important;
+    position:relative;
+    top:-262px;
+    right: 741px;
+    @media(min-width:200px)and (max-width:450px){
+        position:relative;
+        right:25px;
+        top:-6px;
+    }
+    @media(min-width: 1025px) and (max-width: 1062px){
+        position: relative;
+        right: 81px !important;
+        top: 88px;
+    }
+    @media (min-width: 456px) and (max-width:649px){
+        position: relative;
+        top: -39px;
+        right: 47px;
+    }
+    @media (min-width: 991px) and (max-width: 1024px){
+        position: relative;
+        top:-227px !important;
+        right: 541px !important;
+        width: 414px !important;
+    }
+    @media (min-width: 650px) and (max-width:767px){
+        position: relative;
+        right: 88px;
+        top: -76px;
+    }
+    @media (min-width: 768px) and (max-width:768px){
+        position: relative;
+        right: 55px;
+        top: 315px;
+    }
+    @media (min-width: 769px) and (max-width: 991px){
+        position: relative;
+        top: -126px;
+        right:84px;
+    }
+    @media(min-width: 1062px)and (max-width: 1226px){
+        position: relative;
+        right: 71px !important;
+        top: 88px;
+    }
+}
+.det2{
+    background-color: #fcc9c0;
+    position:relative;
+    top: 208px;
+    @media (min-width: 456px) and (max-width:649px){
+        position:relative;
+        top: 358px;
+    }
+    @media(min-width:200px)and (max-width:450px){
+        position: relative;
+         top: 228px !important;
+    }
+    @media (min-width: 650px) and (max-width:768px){
+        position: relative;
+        top: 435px !important;
+    }
+    @media (min-width: 768px) and (max-width: 991px){
+        position: relative;
+        top: 483px;
+    }
+    @media (min-width: 992px) and (max-width: 1026px){
+        position: relative;
+        top: 42px;
+    }
 
+}
 .det{
-    background-color: $brand-beige;
+    background-color: #faedc2;
     position:relative;
     top: 195px;
     @media (min-width: 456px) and (max-width:649px){
@@ -103,6 +205,10 @@
         top: 327px;
     }
     @media (min-width: 650px) and (max-width:767px){
+        position: relative;
+        top:365px;
+    }
+    @media (min-width: 768px) and (max-width:768px){
         position: relative;
         top:34px;
     }
@@ -112,7 +218,7 @@
     }
     @media (min-width: 768px) and (max-width: 991px){
         position: relative;
-        top: 610px;
+        top: 360px;
     }
     @media(min-width: 992px) and (max-width: 1024px){
         position: relative;
@@ -185,27 +291,32 @@
     }
     @media (min-width: 650px) and (max-width:768px){
         position: relative;
-        top: 37px;
+        top: 479px;
     }
 }
 .contactus3{
     @media(min-width:200px)and (max-width:319px){
         position: relative;
         right: 24px !important;
-        top: -10px !important;
+        top: 100px !important;
     }
     @media(min-width: 320px)and (max-width:321px){
         position: relative;
-        right:43px !important;
+        right:33px !important;
     }
-    @media (min-width: 650px) and (max-width:767px){
+    @media (min-width: 767px) and (max-width:767px){
         position: relative;
         top: 171px !important;
         right: 271px !important;
     }
+    @media (min-width: 650px) and (max-width:767px){
+        position: relative;
+        top: 112px !important;
+        right: 207px !important;
+    }
     @media (min-width: 360px)and (max-width:375px){
         position:relative;
-        right: 72px !important;
+        right: 54px !important;
    }
     @media(min-width:322px) and (max-width:359px){
         position:relative;
@@ -214,12 +325,12 @@
     }
     @media(min-width:376px) and (max-width:414px){
         position:relative;
-        right:86px !important;
-        top: -10px !important;
+        right:269px !important;
+        top: 86px !important;
     }
     @media(min-width: 769px) and (max-width: 991px){
         position:relative;
-        top: 223px !important;
+        top: 101px !important;
     }
     @media (min-width: 992px) and (max-width: 1024px){
         position:relative;
@@ -245,20 +356,7 @@
             top: -111px !important;
         }
 }
-.horizontalline4{
-    @media (min-width: 768px) and (max-width: 991px){
-        position: relative;
-        top: 604px !important;
-    }
-    @media (min-width: 456px) and (max-width:649px){
-        position: relative;
-        top: 315px !important;
-    }
-    @media(min-width: 992px) and (max-width: 1024px){
-        position: relative !important;
-        top: 125px !important;
-    }
-}
+
 .horizontalfinal4{
     @media (min-width: 768px) and (max-width: 991px){
         position: relative;
@@ -282,4 +380,287 @@
 
             display:none;
         }
+    }
+    .navbar2{
+        ul a{
+            background-color: transparent !important;
+            color:$brand-dark !important;
+            border-color: $brand-dark !important;
+            &:hover{
+                 
+                    color: #fcc9c0 !important;
+                    background-color: #fd3815!important;
+                    margin: auto;
+                    text-align: center;
+                    border-right: 50%;
+                }
+        }
+        img {
+            height:35px;
+            position: relative;
+            right: 10px;
+        }
+        .nav-item a {
+            position: relative;
+            right:100px;
+        }
+        @media(max-width:991px){
+            img {
+                display:none;
+             }
+        }
+        @media (min-width:430px) and (max-width: 776px){
+            img {
+                height:35px;
+                position: relative;
+                right: -250px !important;
+            }
+        }
+        @media (min-width: 240px)and (max-width:430px){
+            img {
+                display:none;
+            }
+        }
+       
+    }
+    .row5{
+        background-image: url('../images/Contact-Us-Background-Image-with-colour-overlay.jpg');
+        background-position-y: 10px;
+        height: 436px;
+        @media(min-width:200px)and (max-width: 450px){
+            position: relative;
+            top: -32px;
+        }
+        @media(min-width:992px)and (max-width:1026){
+            position:relative;
+        }
+        @media(min-width:768px)and (max-width:991px){
+            height:425px !important;
+        }
+    
+    }
+    .row3{
+        background-image: url('../images/1b368fe2-56b6-49da-9fca-08c7694d3ae8.jpg');
+        background-position-y: 137px;
+        position:relative;
+        top: 78px;
+        @media(min-width:200px)and (max-width: 450px){
+            position: relative;
+            top: 44px;
+            right: 2px;
+        }
+        @media(min-width:650px)and(max-width:768px){
+            position:relative;
+            top: 168px;
+        }
+        @media(min-width:456px)and (max-width:649px){
+            position: relative;
+            top: 184px;
+        }
+        @media(min-width:769px)and (max-width:991px){
+            top:211px !important;
+        }
+    }
+    .contact2{
+        position:relative;
+        top: 245px;
+        @media(min-width:200px)and (max-width:450px){
+            position: relative;
+            top:285px;
+        }
+        @media(min-width: 430px)and (max-width:649px){
+            position:relative;
+            top: 400px !important;
+        }
+        @media(min-width:650px)and (max-width:767px){
+            position:relative;
+            top:463px;
+        }
+       
+        @media(min-width:992px)and (max-width:1025px){
+            position:relative;
+            top: 131px;
+        }
+    }
+    .container-contact2{
+        .contactus3{
+            background-color: #faedc2;
+            position: relative;
+            right:130px;
+            top: 87px;
+        }
+        @media(max-width:991px){
+            .contactus3{
+                position: relative;
+                right:275px;
+            }
+        }
+        @media (min-width:430px) and (max-width: 776px) {
+            .contactus3{
+                position: relative;
+                right: 254px;
+            }
+        }
+         @media(min-width:410px)and (max-width:429px){
+             position:relative;
+             right:-199px
+    
+         }
+        @media (min-width: 320px)and (max-width:410px){
+            .contactus3{
+                position: relative;
+                right:31px;
+            }
+        }
+        @media (min-width: 240px)and (max-width:280px){
+            .contactus3{
+                position: relative;
+                right:9px !important;
+            }
+            @media(min-width:992px)and (max-width:1025px){
+                .contactus3{
+                max-width:105% !important;
+                }
+            }
+    }
+    
+    }
+    .contact-us2{
+        line-height:1px;
+        .title{
+           text-align: center;
+           color: #F8D975;
+       }
+    }
+    .submit3{
+       position: relative;
+       right: 108px;
+       padding: 5px;
+       color: #F8D975!important;
+       border-radius: 5px;
+       border-color: #F8D975;
+       font-size: 15px;
+       &:hover{
+           background-color: #F8D975;
+           color: #faedc2;
+       }
+       @media(max-width:991px){
+           position: relative;
+           right: -10px;
+           padding: 5px;
+       }
+    }
+    .horizontalfinal2{
+        border: 10px solid #f8d975 !important;
+        position: relative;
+        top: 238px;
+        @media(min-width:200px)and (max-width:450px){
+            position: relative;
+            top: 244px;
+        }
+        @media (min-width: 456px) and (max-width:649px){
+            position: relative;
+            top: 528px !important;
+        }
+        @media (min-width: 992px) and (max-width: 1024px){
+            position: relative;
+            top: 153px;
+        }
+        @media (min-width: 768px) and (max-width:768px){
+            position: relative;
+            top: 500px;
+        }
+        @media (min-width: 650px) and (max-width:767px){
+            position: relative;
+            top: 558px;
+        }
+        @media (min-width: 769px) and (max-width: 991px){
+            position: relative;
+            top: 590px;
+        }
+    }
+    .map2{
+        position:relative;
+        right: 632px;
+        top:  -165px;
+        background-color: #faedc2;
+        @media(min-width:1170px){
+            width:600px;
+        }
+        @media(min-width:991)and (max-width:1170px){
+            width:200px !important;
+        }
+        @media(max-width:991px){
+            display:none;
+        }
+        @media(min-width:1142px) and (max-width:1288px){
+            position:relative;
+            right:619px !important;
+            width: 450px;
+        }
+    }
+    .button3{
+        position: relative;
+        right: 620px;
+        background-color: #FF8672;
+        font-weight: 600;
+        color: $brand-dark;
+        &:hover{
+            background-color: $brand-darkblue;
+        }
+        @media(min-width:322px) and (max-width:414px){
+            position:relative;
+            right:118px !important;
+    
+        }
+        @media(min-width:200px)and (max-width:321px){
+            position:relative;
+            right:75px !important;
+        }
+        @media (min-width: 456px) and (max-width:649px){
+            position: relative;
+            right: 197px;
+        }
+        @media (min-width: 991px) and (max-width: 1024px){
+            position:relative;
+            right:460px !important;
+        }
+        @media (min-width: 650px) and (max-width:768px){
+            position: relative;
+            right: 341px;
+        }
+        @media (min-width: 768px) and (max-width: 991px){
+            position:relative;
+            right:322px !important;
+        }
+        @media(min-width: 1025px)and (max-width: 1226px){
+            position: relative;
+            right: 454px !important;
+        }
+    }
+    .horizontalline3{
+        border: 10px solid #FF8672 !important;
+        position: relative;
+            top: 254px;
+            @media(min-width:200px)and (max-width:450px){
+                position: relative;
+               top: 262px;
+               right:3px;
+            }
+            @media (min-width: 456px) and (max-width:649px){
+                position: relative;
+                top: 405px;
+            }
+            @media (min-width: 992px) and (max-width: 1024px){
+                position:relative;
+                top: 108px;
+            }
+            @media (min-width: 650px) and (max-width:768px){
+                position: relative;
+                top: 479px !important;
+            }
+            @media(min-width:768px) and (max-width: 991px){
+                position:relative;
+                top: 522px;
+            }
     }
