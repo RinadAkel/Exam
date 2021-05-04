@@ -94,7 +94,7 @@
     }
 }
 .horizontalline4{
-    border: 10px solid #f8d975 !important;
+    border: 10px solid $brand-darkyellow !important;
     position: relative;
     top: 265px;
         @media(min-width:200px)and (max-width:450px){
@@ -128,10 +128,15 @@
     position:relative;
     top:-262px;
     right: 741px;
-    @media(min-width:200px)and (max-width:450px){
+    @media(min-width:281px)and (max-width:450px){
         position:relative;
         right:25px;
         top:-6px;
+    }
+    @media(min-width:200px)and (max-width:280px){
+        position:relative;
+        right:16px;
+        top:9px;
     }
     @media(min-width: 1025px) and (max-width: 1062px){
         position: relative;
@@ -173,7 +178,7 @@
 }
 
 .det{
-    background-color: #faedc2;
+    background-color: $brand-lightyellow;
     position:relative;
     top: 195px;
     @media (min-width: 456px) and (max-width:649px){
@@ -386,14 +391,15 @@
         }
     }
     .navbar2{
+        background-color: $brand-darkyellow !important;
         ul a{
             background-color: transparent !important;
             color:$brand-dark !important;
             border-color: $brand-dark !important;
             &:hover{
                  
-                    color: #F8D975 !important;
-                    background-color: #faedc2!important;
+                    color: $brand-darkyellow !important;
+                    background-color: $brand-lightyellow!important;
                     margin: auto;
                     text-align: center;
                     border-right: 50%;
@@ -465,30 +471,10 @@
             top:211px !important;
         }
     }
-    .contact2{
-        position:relative;
-        top: 245px;
-        @media(min-width:200px)and (max-width:450px){
-            position: relative;
-            top:285px;
-        }
-        @media(min-width: 430px)and (max-width:649px){
-            position:relative;
-            top: 400px !important;
-        }
-        @media(min-width:650px)and (max-width:767px){
-            position:relative;
-            top:463px;
-        }
-       
-        @media(min-width:992px)and (max-width:1025px){
-            position:relative;
-            top: 131px;
-        }
-    }
+  
     .container-contact2{
         .contactus3{
-            background-color: #faedc2;
+            background-color: $brand-lightyellow;
             position: relative;
             right:130px;
             top: 87px;
@@ -537,20 +523,20 @@
         line-height:1px;
         .title{
            text-align: center;
-           color: #F8D975;
+           color: $brand-darkyellow;
        }
     }
     .submit3{
        position: relative;
        right: 108px;
        padding: 5px;
-       color: #F8D975!important;
+       color: $brand-darkyellow!important;
        border-radius: 5px;
-       border-color: #F8D975;
+       border-color: $brand-darkyellow;
        font-size: 15px;
        &:hover{
-           background-color: #F8D975;
-           color: #faedc2;
+           background-color: $brand-darkyellow;
+           color: $brand-lightyellow;
        }
        @media(max-width:991px){
            position: relative;
@@ -559,7 +545,7 @@
        }
     }
     .horizontalfinal2{
-        border: 10px solid #f8d975 !important;
+        border: 10px solid $brand-darkyellow !important;
         position: relative;
         top: 238px;
         @media(min-width:200px)and (max-width:450px){
@@ -591,7 +577,7 @@
         position:relative;
         right: 632px;
         top:  -165px;
-        background-color: #faedc2;
+        background-color: $brand-lightyellow;
         @media(min-width:1170px){
             width:600px;
         }
@@ -610,11 +596,11 @@
     .button3{
         position: relative;
         right: 620px;
-        background-color: #F8D975;
+        background-color: $brand-darkyellow;
         font-weight: 600;
         color: $brand-dark;
         &:hover{
-            background-color: #faedc2;
+            background-color: $brand-lightyellow;
         }
         @media(min-width:322px) and (max-width:414px){
             position:relative;
@@ -646,29 +632,13 @@
             right: 454px !important;
         }
     }
-    .horizontalline3{
-        border: 10px solid #FF8672 !important;
-        position: relative;
-            top: 254px;
-            @media(min-width:200px)and (max-width:450px){
-                position: relative;
-               top: 262px;
-               right:3px;
-            }
-            @media (min-width: 456px) and (max-width:649px){
-                position: relative;
-                top: 405px;
-            }
-            @media (min-width: 992px) and (max-width: 1024px){
-                position:relative;
-                top: 108px;
-            }
-            @media (min-width: 650px) and (max-width:768px){
-                position: relative;
-                top: 479px !important;
-            }
-            @media(min-width:768px) and (max-width: 991px){
-                position:relative;
-                top: 522px;
-            }
+    .hr2{
+        border: 10px solid  $brand-darkyellow !important;
+      border-radius: 5px;
     }
+    .horizontal{
+        position: relative;
+        top: 40px;
+        border: 10px solid $brand-darkyellow !important;
+    }
+    

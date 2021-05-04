@@ -85,11 +85,7 @@ hr{
 }
 
 
- .cardtrip .card-text{
- color:#F6DB6C;
- font-size: 20px;
- font-weight: 800;
-}
+ 
 @media(min-width: 992px){
     .log{
         display:none;
@@ -135,11 +131,7 @@ hr{
     position: relative;
     top: 87px;
 }
-.horizontalline{
-    position: relative;
-    top: 40px;
-    border: 10px solid #FF8672 !important;
-}
+
 .h3trip{
     position: relative;
     top: 36px;
@@ -222,24 +214,5 @@ right: 10px !important;
     position:relative;
     top: 83px;
 }
-.navbar1{
-    background-color: #FF8672 !important;
-}
 
-.hr1{
-    border: 10px solid #FF8672 !important;
-  border-radius: 5px;
-}
-.hr2{
-    border: 10px solid  #F8d975 !important;
-  border-radius: 5px;
-}
-.navbar2{
-    background-color:  #f8d975 !important;
-}
-.horizontal{
-    position: relative;
-    top: 40px;
-    border: 10px solid #f8d975 !important;
-}
 

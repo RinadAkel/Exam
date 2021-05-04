@@ -84,7 +84,7 @@
 .button2{
     position: relative;
     right: 620px;
-    background-color: #FF8672;
+    background-color: $brand-darkred;
     font-weight: 600;
     color: $brand-dark;
     &:hover{
@@ -121,7 +121,7 @@
     }
 }
 .horizontalline3{
-    border: 10px solid #FF8672 !important;
+    border: 10px solid $brand-darkred !important;
     position: relative;
         top: 254px;
         @media(min-width:200px)and (max-width:450px){
@@ -147,7 +147,7 @@
         }
 }
 .horizontalfinal{
-    border: 10px solid #FF8672 !important;
+    border: 10px solid $brand-darkred !important;
     position: relative;
     top: 238px;
     @media(min-width:200px)and (max-width:450px){
@@ -173,7 +173,7 @@
 }
 .container-contact1{
     .contactus{
-        background-color: #fcc9c0;
+        background-color: $brand-lightred;
         position: relative;
         right:130px;
         top: 87px;
@@ -221,17 +221,17 @@
        color: #fd3815;
    }
 }
-.submit{
+.submit1{
    position: relative;
    right: 108px;
    padding: 5px;
    color: #fd3815!important;
    border-radius: 5px;
-   border-color: #FF8672;
+   border-color: $brand-darkred;
    font-size: 15px;
    &:hover{
-       background-color: #FF8672;
-       color: #fcc9c0;
+       background-color: $brand-darkred;
+       color: $brand-lightred;
    }
    @media(max-width:991px){
        position: relative;
@@ -239,11 +239,40 @@
        padding: 5px;
    }
 }
+.contact2{
+    position:relative;
+    top: 245px;
+    @media(min-width:200px)and (max-width:450px){
+        position: relative;
+        top:285px;
+    }
+    @media(min-width: 430px)and (max-width:649px){
+        position:relative;
+        top: 400px !important;
+    }
+    @media(min-width:650px)and (max-width:767px){
+        position:relative;
+        top:463px;
+    }
+   
+    @media(min-width:992px)and (max-width:1025px){
+        position:relative;
+        top: 131px;
+    }
+    @media(min-width:769px)and (max-width:991px){
+        position:relative;
+        top: 507px;
+    }
+    @media(min-width:768px)and (max-width:778px){
+        position:relative;
+        top: 462px;
+    }
+}
 .map2{
     position:relative;
     right: 632px;
     top:  -165px;
-    background-color: #fcc9c0;
+    background-color: $brand-lightred;
     @media(min-width:1170px){
         width:600px;
     }
@@ -298,7 +327,7 @@
     }
 }
 #commentForm1 a{
-    color: #FF8672;
+    color: $brand-darkred;
     @media(min-width: 200px)and(max-width:450px){
         position:relative;
         right:40px;
@@ -323,13 +352,14 @@
     }
 }
 .navbar1{
+    background-color: $brand-darkred !important;
     ul a{
         background-color: transparent !important;
         color:$brand-dark !important;
         border-color: $brand-dark !important;
         &:hover{
              
-                color: #fcc9c0 !important;
+                color: $brand-lightred !important;
                 background-color: #fd3815!important;
                 margin: auto;
                 text-align: center;
@@ -365,7 +395,7 @@
    
 }
 .det2{
-    background-color: #fcc9c0;
+    background-color: $brand-lightred;
     position:relative;
     top: 208px;
     @media (min-width: 456px) and (max-width:649px){
@@ -398,14 +428,17 @@
     @media(min-width:200px)and (max-width:280px){
         position: relative;
         top: -43px !important;
+        right: 22px !important;
     }
     @media(min-width:350px)and (max-width:455px){
         position: relative;
         top: -82px !important;
+        right: 21px !important
     }
     @media (min-width: 456px) and (max-width:649px){
         position: relative;
         top: -51px;
+        right: 49px !important;
     }
     @media (min-width: 992px) and (max-width: 1024px){
         position: relative;
@@ -413,16 +446,23 @@
         right: 571px !important;
         width:418px !important;
     }
-    @media (min-width: 768px) and (max-width: 991px){
+    @media (min-width: 769px) and (max-width: 991px){
         position: relative;
-        top:-35px !important;
-        right: 42px !important;
+        top:-12px !important;
+        right: 240px !important;
+        width: 466px !important;
     }
     
-    @media (min-width: 650px) and (max-width:768px){
+    @media (min-width: 650px) and (max-width:769px){
         position: relative;
         right: 58px !important;
         top: -89px !important;
+    }
+    @media (min-width: 650px) and (max-width:768px){
+        position: relative;
+        right: 121px !important;
+        top: -49px !important;
+        width: 466px !important;
     }
     @media(min-width: 1025px)and (max-width: 1040px){
         position: relative;
@@ -447,4 +487,13 @@
         right: 275px !important;
         top: 173px !important;
     }
+}
+.horizontalline{
+    position: relative;
+    top: 40px;
+    border: 10px solid $brand-darkred !important;
+}
+.hr1{
+    border: 10px solid $brand-darkred !important;
+  border-radius: 5px;
 }
