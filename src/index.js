@@ -2,6 +2,7 @@ import '../src/scss/_variables.scss';
 import '../src/scss/Main.scss';
 import '../src/scss/Egypt.scss';
 import '../src/scss/Turkey.scss';
+import '../src/scss/EgyptTurkeyCommon.scss';
 import '@laylazi/bootstrap-rtl/dist/css/bootstrap-rtl.min.css';
 import '../src/css/style.css';
 import 'jquery/dist/jquery.min';
