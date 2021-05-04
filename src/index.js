@@ -8,8 +8,8 @@ import 'jquery/dist/jquery.min';
 import 'popper.js/dist/popper.min';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import '@fortawesome/fontawesome-free/js/all.min';
-import  '../src/images/landingpage/video1.mp4';
-import  '../src/images/landingpage/video2.mp4';
+import  '../src/images/Egypt/Egypt.mp4';
+import  '../src/images/Turkey/Turkey.mp4';
 $(function() {
     $("#yourModal").modal("hide"); 
     /* التأكد ان كانت كلمة الر مطابقة */

@@ -24,7 +24,7 @@
     top: 450px;
     bottom: 0px;
     left: 0;
-    right: 991px;
+    right: 806px;
     margin: auto;
     width: 300px;
     height: 300px;
@@ -171,32 +171,7 @@
         top: -238px;
     }
 }
-.det2{
-    background-color: #fcc9c0;
-    position:relative;
-    top: 208px;
-    @media (min-width: 456px) and (max-width:649px){
-        position:relative;
-        top: 358px;
-    }
-    @media(min-width:200px)and (max-width:450px){
-        position: relative;
-         top: 228px !important;
-    }
-    @media (min-width: 650px) and (max-width:768px){
-        position: relative;
-        top: 435px !important;
-    }
-    @media (min-width: 768px) and (max-width: 991px){
-        position: relative;
-        top: 483px;
-    }
-    @media (min-width: 992px) and (max-width: 1026px){
-        position: relative;
-        top: 42px;
-    }
 
-}
 .det{
     background-color: #faedc2;
     position:relative;
@@ -293,6 +268,34 @@
     @media (min-width: 650px) and (max-width:768px){
         position: relative;
         top: 479px;
+    }
+}
+.contact3{
+    position:relative;
+    top: 245px;
+    @media(min-width:200px)and (max-width:450px){
+        position: relative;
+        top:285px;
+    }
+    @media(min-width: 430px)and (max-width:649px){
+        position:relative;
+        top: 518px !important;
+    }
+    @media(min-width:768px)and (max-width:768px){
+        position:relative;
+        top:515px;
+    }
+    @media(min-width:650px)and (max-width:767px){
+        position:relative;
+        top:546px;
+    }
+    @media(min-width:769px)and (max-width:991px){
+        position:relative;
+        top:577px;
+    }
+    @media(min-width:992px)and (max-width:1025px){
+        position:relative;
+        top: 131px;
     }
 }
 .contactus3{
@@ -425,7 +428,7 @@
        
     }
     .row5{
-        background-image: url('../images/Contact-Us-Background-Image-with-colour-overlay.jpg');
+        background-image: url('../images/ContactUsBackground.jpg');
         background-position-y: 10px;
         height: 436px;
         @media(min-width:200px)and (max-width: 450px){
@@ -441,7 +444,7 @@
     
     }
     .row3{
-        background-image: url('../images/1b368fe2-56b6-49da-9fca-08c7694d3ae8.jpg');
+        background-image: url('../images/carouselBackground.jpg');
         background-position-y: 137px;
         position:relative;
         top: 78px;

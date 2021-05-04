@@ -14,7 +14,7 @@
     line-height: 1.429;
 }
 .services .servicess , .tripstitle{
-    background-image: url('../images/image1.png');
+    background-image: url('../images/Main/ServicesBackground.png');
      background-color: rgba(5, 117, 230, 0.8) !important;
   } 
 .whyus{
@@ -125,12 +125,12 @@ hr{
     
     
 }
-/********************************** Landing page ***********************************************/
+/********************************** Landing pages ***********************************************/
 @keyframes spin{
 100% {background-position:100%;}
 }
 .first{
-    background-image: url('../images/r.jpg');
+    background-image: url('../images/Egypt/EgyptBackground.jpg');
     background-size:cover;
     position: relative;
     top: 87px;
@@ -217,9 +217,8 @@ right: 10px !important;
     top: -166px !important;
     }
 }
-/******************************************************/
 .first1{
-    background-image: url('../images/v660-mon-35-travelbadge.jpg');
+    background-image: url('../images/Turkey/TurkeyBackground.jpg');
     position:relative;
     top: 83px;
 }

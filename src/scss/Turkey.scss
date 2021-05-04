@@ -36,7 +36,12 @@
     }
     @media(min-width: 1025px) and (max-width: 1323px){
         position: relative;
-        right: 544px !important;
+        right: 544px;
+        top: 268px;
+    }
+    @media(min-width: 1213px) and (max-width: 1323px){
+        position: relative;
+        right: 722px !important;
         top: 268px !important;
     }
     
@@ -255,7 +260,7 @@
     }
 }
 .row2{
-    background-image: url('../images/1b368fe2-56b6-49da-9fca-08c7694d3ae8.jpg');
+    background-image: url('../images/carouselBackground.jpg');
     position:relative;
     top: 49px;
     @media(min-width:200px)and (max-width: 450px){
@@ -265,7 +270,7 @@
     }
 }
 .row4{
-    background-image: url('../images/Contact-Us-Background-Image-with-colour-overlay.jpg');
+    background-image: url('../images/ContactUsBackground.jpg');
     background-position-y: 10px;
     height: 436px;
     @media(min-width:200px)and (max-width: 450px){
@@ -359,33 +364,31 @@
     }
    
 }
-.contact3{
+.det2{
+    background-color: #fcc9c0;
     position:relative;
-    top: 245px;
+    top: 208px;
+    @media (min-width: 456px) and (max-width:649px){
+        position:relative;
+        top: 358px;
+    }
     @media(min-width:200px)and (max-width:450px){
         position: relative;
-        top:285px;
+         top: 228px !important;
     }
-    @media(min-width: 430px)and (max-width:649px){
-        position:relative;
-        top: 518px !important;
+    @media (min-width: 650px) and (max-width:768px){
+        position: relative;
+        top: 435px !important;
     }
-    @media(min-width:768px)and (max-width:768px){
-        position:relative;
-        top:515px;
+    @media (min-width: 768px) and (max-width: 991px){
+        position: relative;
+        top: 483px;
     }
-    @media(min-width:650px)and (max-width:767px){
-        position:relative;
-        top:546px;
+    @media (min-width: 992px) and (max-width: 1026px){
+        position: relative;
+        top: 42px;
     }
-    @media(min-width:769px)and (max-width:991px){
-        position:relative;
-        top:577px;
-    }
-    @media(min-width:992px)and (max-width:1025px){
-        position:relative;
-        top: 131px;
-    }
+
 }
 .inner2{
     width: 75% !important;
