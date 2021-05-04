@@ -108,11 +108,11 @@
         }
         @media (min-width: 992px) and (max-width: 1024px){
             position:relative;
-            top: 108px;
+            top: 149px;
         }
         @media (min-width: 768px) and (max-width:768px){
             position: relative;
-            top: 479px !important;
+            top: 521px !important;
         }
         @media (min-width: 650px) and (max-width:767px){
             position: relative;
@@ -135,18 +135,19 @@
     }
     @media(min-width: 1025px) and (max-width: 1062px){
         position: relative;
-        right: 81px !important;
-        top: 88px;
+        right: 543px !important;
+        top: -232px;
+        width:406px !important;
     }
     @media (min-width: 456px) and (max-width:649px){
         position: relative;
         top: -39px;
         right: 47px;
     }
-    @media (min-width: 991px) and (max-width: 1024px){
+    @media (min-width: 992px) and (max-width: 1025px){
         position: relative;
         top:-227px !important;
-        right: 541px !important;
+        right: 523px !important;
         width: 414px !important;
     }
     @media (min-width: 650px) and (max-width:767px){
@@ -156,8 +157,8 @@
     }
     @media (min-width: 768px) and (max-width:768px){
         position: relative;
-        right: 55px;
-        top: 315px;
+        right: 77px;
+        top: -66px;
     }
     @media (min-width: 769px) and (max-width: 991px){
         position: relative;
@@ -166,8 +167,8 @@
     }
     @media(min-width: 1062px)and (max-width: 1226px){
         position: relative;
-        right: 71px !important;
-        top: 88px;
+        right: 546px !important;
+        top: -238px;
     }
 }
 .det2{
@@ -388,8 +389,8 @@
             border-color: $brand-dark !important;
             &:hover{
                  
-                    color: #fcc9c0 !important;
-                    background-color: #fd3815!important;
+                    color: #F8D975 !important;
+                    background-color: #faedc2!important;
                     margin: auto;
                     text-align: center;
                     border-right: 50%;
@@ -501,6 +502,10 @@
                 right: 254px;
             }
         }
+        @media(min-width:500px)and (max-width:649px){
+            position:relative;
+            right:-150px;
+        }
          @media(min-width:410px)and (max-width:429px){
              position:relative;
              right:-199px
@@ -602,11 +607,11 @@
     .button3{
         position: relative;
         right: 620px;
-        background-color: #FF8672;
+        background-color: #F8D975;
         font-weight: 600;
         color: $brand-dark;
         &:hover{
-            background-color: $brand-darkblue;
+            background-color: #faedc2;
         }
         @media(min-width:322px) and (max-width:414px){
             position:relative;
