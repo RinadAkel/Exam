@@ -357,3 +357,27 @@
                     font-size: 20px;
                     font-weight: 800;
                    }
+                   .titlewhyus{
+                    color: $brand-blue;
+                }
+                .fa-check-double{
+                    position:relative;
+                    right: 650px;
+                    text-align: center;
+                    font-size: 45px;
+                    font-weight: 500;
+                    color: $brand-blue;
+                }
+                hr{
+                    border: 10px solid $brand-darkblue;
+                  border-radius: 5px;
+                }
+                .modal-footer{
+                    background-color: $brand-lightblue;
+                  }
+                  
+                  
+                  .card-body h5{
+                      color: $brand-blue;
+                  }
+                

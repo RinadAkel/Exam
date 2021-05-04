@@ -21,27 +21,14 @@
     text-align: center;
     background-color: #f6fbff;
 }
-.titlewhyus{
-    color: blue;
-}
+
 .tripstitle h3{
     line-height: 1.8 !important;
     font-weight: bolder;
     font-size: 33px;
 }
-.fa-check-double{
-    position:relative;
-    right: 650px;
-    text-align: center;
-    font-size: 45px;
-    font-weight: 500;
-    color: blue;
-}
 
-hr{
-    border: 10px solid darkblue;
-  border-radius: 5px;
-}
+
 .vl {
     border-left: 6px solid green;
     height: 500px;
@@ -58,14 +45,7 @@ hr{
       text-align: center;
   }
 
-.modal-footer{
-  background-color: lightblue;
-}
 
-
-.card-body h5{
-    color: blue;
-}
 
 #contact{
     position: relative;
@@ -155,11 +135,7 @@ white-space: nowrap !important;
 right: 10px !important;
 } 
 
-@media(min-width:200px)and (max-width:450px){
-    .row11{
-         background-color: lightblue;
-    }
-}
+
 @media (min-width: 456px) and (max-width:649px){
     
     hr{

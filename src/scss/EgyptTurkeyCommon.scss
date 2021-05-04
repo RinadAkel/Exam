@@ -219,3 +219,8 @@
             right:141px !important;
             }
       }
+      @media(min-width:200px)and (max-width:450px){
+        .row11{
+             background-color: $brand-lightblue;
+        }
+    }
