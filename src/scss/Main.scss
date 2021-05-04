@@ -1,15 +1,15 @@
 @import '../scss/_variables';
 //for the mainpage 
 .navbar{
-    background-color: $brand-ghostwhite !important;
+    background-color: $brand-ghostwhite;
     ul a{
-        background-color: transparent !important;
-        color:$brand-dark !important;
-        border-color: $brand-dark !important;
+        background-color: transparent;
+        color:$brand-dark;
+        border-color: $brand-dark;
         &:hover{
              
-                color: $brand-blue !important;
-                background-color: $brand-darkblue !important;
+                color: $brand-blue;
+                background-color: $brand-darkblue;
                 margin: auto;
                 text-align: center;
                 border-right: 50%;

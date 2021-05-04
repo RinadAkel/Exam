@@ -189,12 +189,7 @@ right: 10px !important;
 
 
 }
-@media(min-width: 500px) and (max-width:545px){
-    .contactus{
-    position:relative;
-    right:167px !important;
-}
-}
+
 @media (min-width: 992px) and (max-width: 1024px){
     .map2{
     position:relative;

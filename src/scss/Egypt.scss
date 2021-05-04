@@ -1,2 +1,41 @@
 @import '../scss/variables';
-//for the landing page
+@import '../scss/mixins';
+.navbar1{
+    @include navbar1($brand-darkyellow,$brand-dark,$brand-yellow,$brand-lightyellow);
+}
+.horizontal{
+    @include horizontal($brand-darkyellow);
+}
+.hr1{
+    @include hr ($brand-darkyellow);
+}
+.map2{
+    @include map($brand-darkyellow);
+}
+.button{
+    @include button($brand-darkyellow,$brand-dark,$brand-lightyellow);
+}
+.horizontalline3egy{
+    @include  horizontalline3($brand-darkyellow);
+}
+.container-contact1{
+    @include container-contact($brand-darkyellow);
+}
+.contact-us1{
+    @include contact-us ($brand-lightyellow);
+}
+.horizontalfinal{
+    @include  horizontalfinal($brand-darkyellow);
+}
+#commentForm1 a{
+    @include commentForm ($brand-darkyellow);
+}
+.submit1{
+    @include submit ($brand-darkyellow,$brand-lightyellow);
+}
+.det{
+    @include det ($brand-lightyellow);
+}
+.topmenu{
+    @include topmenu($brand-darkyellow);
+}

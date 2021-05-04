@@ -1,0 +1,316 @@
+ @mixin hr ($color){
+    border: 10px solid  $color !important;
+  border-radius: 5px;
+}
+@mixin commentForm ($color) {
+    color: $color !important;
+    text-decoration: none;
+    @media(min-width: 200px)and(max-width:450px){
+        position:relative;
+        right:40px;
+    }
+    @media(min-width:1170px){
+        a {
+            display: none !important;
+        }
+    }
+    @media(min-width:991)and (max-width:1170px){
+        a {
+            display: none !important;
+        }
+    }
+    @media(max-width:991px){
+        a {
+            text-decoration: none;
+            color: $brand-darkblue;
+            position: relative;
+            right: 78px;
+        }
+    }
+}
+ @mixin navbar1 ($color1,$color2,$color3,$color4){
+    background-color: $color1;
+    ul a{
+        background-color: transparent;
+        color: $color2;
+        border-color: $color2;
+        &:hover{
+             
+                color: $color3;
+                background-color: $color4 !important;
+                margin: auto;
+                text-align: center;
+                border-right: 50%;
+            }
+    }
+    img {
+        height:35px;
+        position: relative;
+        right: 10px;
+    }
+    .nav-item a {
+        position: relative;
+        right:100px;
+    }
+    @media(max-width:991px){
+        img {
+            display:none;
+         }
+    }
+    @media (min-width:430px) and (max-width: 776px){
+        img {
+            height:35px;
+            position: relative;
+            right: -250px !important;
+        }
+    }
+    @media (min-width: 240px)and (max-width:430px){
+        img {
+            display:none;
+        }
+    }
+   
+}
+@mixin horizontal($color){
+    position: relative;
+    top: 40px;
+    border: 10px solid $color !important;
+}
+ @mixin map($color){
+        position:relative;
+        right: 632px;
+        top:  -165px;
+        background-color: $brand-lightyellow;
+        @media(min-width:1170px){
+            width:600px;
+        }
+        @media(min-width:991)and (max-width:1170px){
+            width:200px !important;
+        }
+        @media(max-width:991px){
+            display:none;
+        }
+        @media(min-width:1142px) and (max-width:1288px){
+            position:relative;
+            right:619px !important;
+            width: 450px;
+        }
+        @media(min-width:992px)and (max-width:1024px){
+            top:-161px !important;
+            right:569px !important;
+        }
+
+   
+ }
+ @mixin horizontalfinal($color){
+    border: 10px solid $color !important;
+    position: relative;
+    top: 238px;
+    @media(min-width:200px)and (max-width:450px){
+        position: relative;
+        top: 244px;
+    }
+    @media (min-width: 456px) and (max-width:649px){
+        position: relative;
+        top: 513px !important;
+    }
+    @media (min-width: 992px) and (max-width: 1024px){
+        position: relative;
+        top: 153px;
+    }
+    @media (min-width: 650px) and (max-width:768px){
+        position: relative;
+        top: 435px;
+    }
+    @media (min-width: 769px) and (max-width: 991px){
+        position: relative;
+        top: 462px;
+    }
+}
+
+ @mixin contact-us ($color){
+    line-height:1px;
+    .title{
+       text-align: center;
+       color: $color;
+   }
+}
+ @mixin container-contact($color){
+    .contactus{
+        background-color: $color;
+        position: relative;
+        right:130px;
+        top: 87px;
+    }
+    @media(max-width:991px){
+        .contactus{
+            position: relative;
+            right:275px;
+        }
+    }
+    @media (min-width:430px) and (max-width: 776px) {
+        .contactus{
+            position: relative;
+            right: 250px;
+        }
+    }
+     @media(min-width:410px)and (max-width:429px){
+         position:relative;
+         right:-199px
+
+     }
+    @media (min-width: 320px)and (max-width:410px){
+        .contactus{
+            position: relative;
+            right:31px;
+        }
+    }
+    @media (min-width: 240px)and (max-width:280px){
+        .contactus{
+            position: relative;
+            right:9px !important;
+        }
+        @media(min-width:992px)and (max-width:1025px){
+            .contactus{
+            max-width:105% !important;
+            }
+        }
+}
+
+}
+@mixin button($color1,$color2,$color3){
+        position: relative;
+        right: 618px;
+        background-color: $color1;
+        font-weight: 600;
+        color: $color2;
+        &:hover{
+            background-color: $color3;
+        }
+        @media(min-width:322px) and (max-width:400px){
+            position:relative;
+            right:72px !important;
+    
+        }
+        @media(min-width:400px) and (max-width:414px){
+            position:relative;
+            right:100px !important;
+    
+        }
+        @media(min-width:200px)and (max-width:321px){
+            position:relative;
+            right:34px !important;
+        }
+        @media (min-width: 456px) and (max-width:649px){
+            position: relative;
+            right: 166px;
+        }
+        @media (min-width: 991px) and (max-width: 1024px){
+            position:relative;
+            right:414px !important;
+        }
+        @media (min-width: 650px) and (max-width:768px){
+            position: relative;
+            right: 341px;
+        }
+        @media (min-width: 768px) and (max-width: 991px){
+            position:relative;
+            right:290px !important;
+        }
+        @media(min-width: 1025px)and (max-width: 1226px){
+            position: relative;
+            right: 454px !important;
+        }
+}
+@mixin horizontalline3($color){
+        border: 10px solid $color !important;
+        position: relative;
+        top: 269px;
+        @media(min-width:200px)and (max-width:450px){
+            position: relative;
+           top: 262px;
+           right:3px;
+        }
+        @media (min-width: 456px) and (max-width:649px){
+            position: relative;
+            top: 511px;
+        }
+        @media (min-width: 992px) and (max-width: 1024px){
+            position:relative;
+            top: 163px;
+        }
+        @media (min-width: 650px) and (max-width:768px){
+            position: relative;
+            top: 479px !important;
+        }
+        @media(min-width:768px) and (max-width: 991px){
+            position:relative;
+            top: 522px;
+        }
+    }    
+
+    @mixin submit($color1,$color2){
+        position: relative;
+        right: 108px;
+        color: $color1;
+        padding: 5px;
+        border-radius: 5px;
+        font-size: 15px;
+        &:hover{
+            background-color: $color2
+        }
+        @media(max-width:991px){
+            position: relative;
+            right: -10px;
+            padding: 5px;
+        }
+     }
+     @mixin topmenu($color){
+        @media(min-width:200px)and (max-width:450px){
+            position: relative;
+            left: -8px !important;
+            background-color: $color;
+        }
+        @media (min-width: 456px) and (max-width:649px){
+            position: relative;
+            left: -8px !important;
+            background-color: $color;
+        }
+        @media (min-width: 650px) and (max-width:768px){
+            position: relative;
+            left: -8px !important;
+            background-color: $color;
+        }
+       
+    }
+    
+    
+     @mixin det ($color){
+        background-color: $color;
+        position:relative;
+        top: 195px;
+        @media (min-width: 456px) and (max-width:649px){
+            position: relative;
+            top: 408px;
+        }
+        @media (min-width: 650px) and (max-width:767px){
+            position: relative;
+            top:413px;
+        }
+        @media (min-width: 768px) and (max-width:768px){
+            position: relative;
+            top:34px;
+        }
+        @media(min-width:200px)and (max-width:450px){
+            position: relative;
+             top: 238px !important;
+        }
+        @media (min-width: 768px) and (max-width: 991px){
+            position: relative;
+            top: 484px;
+        }
+        @media(min-width: 992px) and (max-width: 1024px){
+            position: relative;
+            top: 110px;
+        }
+    }

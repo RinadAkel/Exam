@@ -1,0 +1,41 @@
+@import '../scss/variables';
+@import '../scss/mixins';
+.navbar2{
+    @include navbar1($brand-darkred,$brand-dark,$brand-red,$brand-lightred);
+}
+.horizontal1{
+    @include horizontal($brand-darkred);
+}
+.hr2{
+    @include hr ($brand-darkred);
+}
+.map3{
+    @include map($brand-darkred);
+}
+.button1{
+    @include button($brand-darkred,$brand-dark,$brand-lightred);
+}
+.horizontalline3tur{
+    @include  horizontalline3($brand-darkred);
+}
+.container-contact2{
+    @include container-contact($brand-darkred);
+}
+.contact-us2{
+    @include contact-us ($brand-lightred);
+}
+.horizontalfinal1{
+    @include  horizontalfinal($brand-darkred);
+}
+#commentForm2 a{
+    @include commentForm ($brand-darkred);
+}
+.submit2{
+    @include submit ($brand-darkred,$brand-lightred);
+}
+.det1{
+    @include det ($brand-lightred);
+}
+.topmenu1{
+    @include topmenu($brand-darkred);
+}
